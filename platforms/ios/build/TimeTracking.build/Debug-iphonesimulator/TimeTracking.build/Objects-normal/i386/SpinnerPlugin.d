@@ -1,0 +1,23 @@
+dependencies: \
+  /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/TimeTracking/Plugins/it.mobimentum.phonegapspinnerplugin/SpinnerPlugin.m \
+  /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/TimeTracking/Plugins/it.mobimentum.phonegapspinnerplugin/SpinnerPlugin.h \
+  /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDV.h \
+  /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h \
+  /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h \
+  /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h \
+  /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h \
+  /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h \
+  /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h \
+  /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVViewController.h \
+  /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h \
+  /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h \
+  /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h \
+  /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h \
+  /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVDebug.h \
+  /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h \
+  /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVTimer.h \
+  /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h \
+  /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h \
+  /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h \
+  /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h \
+  /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVJSON.h

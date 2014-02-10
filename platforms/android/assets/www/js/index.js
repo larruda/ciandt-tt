@@ -33,17 +33,20 @@ var app = {
     // The scope of 'this' is the event. In order to call the 'receivedEvent'
     // function, we must explicity call 'app.receivedEvent(...);'
     onDeviceReady: function() {
-        app.receivedEvent('deviceready');
+        app.initFastClick();
+        app.bindEvents();
     },
-    // Update DOM on a Received Event
-    receivedEvent: function(id) {
-        var parentElement = document.getElementById(id);
-        var listeningElement = parentElement.querySelector('.listening');
-        var receivedElement = parentElement.querySelector('.received');
 
-        listeningElement.setAttribute('style', 'display:none;');
-        receivedElement.setAttribute('style', 'display:block;');
+    initFastClick: function() {
+        window.addEventListener('load', function() {
+            FastClick.attach(document.body);
+        }, false);
+    },
 
-        console.log('Received Event: ' + id);
+    bindEvents: function() {
+        var check_button = document.getElementById("check-button");
+        check_button.onclick = function() {
+            spinnerplugin.show();
+        }
     }
 };

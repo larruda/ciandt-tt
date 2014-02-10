@@ -1,0 +1,1184 @@
+TCordovaLib
+v6
+r1
+cCheck dependencies
+cCpHeader Classes/NSDictionary+Extensions.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h
+cCpHeader Classes/CDVInvokedUrlCommand.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+cCpHeader Classes/NSData+Base64.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h
+cCpHeader Classes/CDVPluginResult.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+cCpHeader Classes/CDVPlugin.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+cCpHeader Classes/CDVDebug.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVDebug.h
+cCpHeader Classes/NSMutableArray+QueueAdditions.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+cCpHeader Classes/CDVWhitelist.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+cCpHeader Classes/CDVURLProtocol.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h
+cCpHeader Classes/CDVViewController.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+cCpHeader Classes/CDVCommandDelegate.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+cCpHeader Classes/CDV.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDV.h
+cCpHeader Classes/CDVAvailability.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+cCpHeader Classes/CDVLocalStorage.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h
+cCpHeader Classes/UIDevice+Extensions.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h
+cCpHeader Classes/NSArray+Comparisons.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h
+cCpHeader Classes/CDVCommandQueue.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+cCpHeader Classes/CDVCommandDelegateImpl.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
+cCpHeader Classes/CDVShared.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVShared.h
+cCpHeader Classes/CDVScreenOrientationDelegate.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+cCpHeader Classes/CDVConfigParser.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h
+cCpHeader Classes/CDVJSON.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVJSON.h
+cCpHeader Classes/CDVWebViewDelegate.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h
+cCpHeader Classes/CDVUserAgentUtil.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h
+cCpHeader Classes/CDVTimer.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVTimer.h
+cProcessPCH /var/folders/2f/x57rd3lj40b25fhctxbk2hrm0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-hbjptoebzywnargimetfgohknydf/CordovaLib_Prefix.pch.pch CordovaLib_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/NSData+Base64.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVPluginResult.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVPlugin.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVWhitelist.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVConfigParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVJSON.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVTimer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVShared.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/libCordova.a normal i386
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk
+c000000005282937B0000000000000176
+t1384289147
+s374
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/SDKSettings.plist
+c0000000052695D1500000000000003B5
+t1382636821
+s949
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000052695D2100000000000001A0
+t1382636833
+s416
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDV.h
+c0000000052F19E190000000000000516
+t1391566361
+s1302
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+c0000000052F19E190000000000000CBF
+t1391566361
+s3263
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
+c0000000052F19E1900000000000008BA
+t1391566361
+s2234
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h
+c0000000052F19E190000000000000473
+t1391566361
+s1139
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m
+c0000000052F19E19000000000000127C
+t1391566361
+s4732
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
+c0000000052F19E190000000000000501
+t1391566361
+s1281
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m
+c0000000052F19E1900000000000017C5
+t1391566361
+s6085
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVConfigParser.h
+c0000000052F19E1900000000000004CB
+t1391566361
+s1227
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVConfigParser.m
+c0000000052F19E190000000000000EB2
+t1391566361
+s3762
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVDebug.h
+c0000000052F19E190000000000000401
+t1391566361
+s1025
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+c0000000052F19E1900000000000007E6
+t1391566361
+s2022
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m
+c0000000052F19E190000000000000DDE
+t1391566361
+s3550
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVJSON.h
+c0000000052F19E1900000000000003DA
+t1391566361
+s986
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVJSON.m
+c0000000052F19E19000000000000098E
+t1391566361
+s2446
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h
+c0000000052F19E1900000000000006CF
+t1391566361
+s1743
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m
+c0000000052F19E190000000000004C7E
+t1391566361
+s19582
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVPlugin.h
+c0000000052F19E190000000000000892
+t1391566361
+s2194
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVPlugin.m
+c0000000052F19E1900000000000016AE
+t1391566361
+s5806
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+c0000000052F19E190000000000000C13
+t1391566361
+s3091
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVPluginResult.m
+c0000000052F19E190000000000001B29
+t1391566361
+s6953
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
+c0000000052F19E190000000000000408
+t1391566361
+s1032
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVShared.h
+c0000000052F19E1900000000000003E6
+t1391566361
+s998
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVShared.m
+c0000000052F19E1900000000000006B6
+t1391566361
+s1718
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVTimer.h
+c0000000052F19E19000000000000038D
+t1391566361
+s909
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVTimer.m
+c0000000052F19E190000000000000AA2
+t1391566361
+s2722
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
+c0000000052F19E19000000000000041C
+t1391566361
+s1052
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m
+c0000000052F19E190000000000002514
+t1391566361
+s9492
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.h
+c0000000052F19E190000000000000421
+t1391566361
+s1057
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m
+c0000000052F19E1900000000000012A2
+t1391566361
+s4770
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVViewController.h
+c0000000052F19E190000000000000ACC
+t1391566361
+s2764
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVViewController.m
+c0000000052F19E19000000000000879D
+t1391566361
+s34717
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h
+c0000000052F19E1900000000000005A2
+t1391566361
+s1442
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m
+c0000000052F19E190000000000003804
+t1391566361
+s14340
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+c0000000052F19E1900000000000004B4
+t1391566361
+s1204
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVWhitelist.m
+c0000000052F19E1900000000000027D3
+t1391566361
+s10195
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
+c0000000052F19E190000000000000392
+t1391566361
+s914
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m
+c0000000052F19E1900000000000004D8
+t1391566361
+s1240
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+c0000000052F19E19000000000000037D
+t1391566361
+s893
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/NSData+Base64.m
+c0000000052F19E1900000000000022CC
+t1391566361
+s8908
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
+c0000000052F19E1900000000000005DA
+t1391566361
+s1498
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m
+c0000000052F19E190000000000001059
+t1391566361
+s4185
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+c0000000052F19E1900000000000003A0
+t1391566361
+s928
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m
+c0000000052F19E190000000000000584
+t1391566361
+s1412
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
+c0000000052F19E190000000000000476
+t1391566361
+s1142
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m
+c0000000052F19E190000000000000620
+t1391566361
+s1568
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/CordovaLib_Prefix.pch
+c0000000052F19E190000000000000346
+t1391566361
+s838
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o
+t1391645996
+s63164
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o
+t1391645997
+s60172
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o
+t1391645997
+s27748
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o
+t1391645991
+s18712
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o
+t1391645997
+s10868
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o
+t1391645994
+s109628
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o
+t1391645992
+s59520
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o
+t1391645991
+s37232
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o
+t1391645998
+s9396
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o
+t1391645998
+s22944
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o
+t1391645992
+s71236
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o
+t1391645998
+s52712
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o
+t1391645995
+s162568
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o
+t1391645998
+s71308
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o
+t1391645991
+s42356
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/Cordova.LinkFileList
+c0000000052F2D5250000000000000C8F
+t1391645989
+s3215
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o
+t1391645995
+s7476
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o
+t1391645991
+s11140
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o
+t1391645991
+s17848
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o
+t1391645991
+s6988
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o
+t1391645995
+s9604
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDV.h
+t2
+s0
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+t2
+s0
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+t2
+s0
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
+t2
+s0
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+t2
+s0
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h
+t2
+s0
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVDebug.h
+t2
+s0
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+t2
+s0
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVJSON.h
+t2
+s0
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h
+t2
+s0
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+t2
+s0
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+t2
+s0
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+t2
+s0
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVShared.h
+t2
+s0
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVTimer.h
+t2
+s0
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h
+t2
+s0
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h
+t2
+s0
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+t2
+s0
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h
+t2
+s0
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+t2
+s0
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h
+t2
+s0
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h
+t2
+s0
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h
+t2
+s0
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+t2
+s0
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h
+t2
+s0
+
+N/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/libCordova.a
+t2
+s0
+
+N/var/folders/2f/x57rd3lj40b25fhctxbk2hrm0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-hbjptoebzywnargimetfgohknydf/CordovaLib_Prefix.pch.pch
+t1391645990
+s3202188
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies2d40efa40ca3b841^5be95da50ca3b841^---0#1#1#--18"Check dependencies36"540B1873-E46B-4E60-9015-D39FD527DBC0-
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s413338795.304782
+e413338796.971998
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o
+x/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVJSON.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVViewController.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVPlugin.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m216"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o Classes/CDVCommandDelegateImpl.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerbf274eab0ca3b841^e9d5f8ac0ca3b841^---0#0#1#-19%DVTDocumentLocation2@99"file:///Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m0000000000000000^3893"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o Classes/CDVCommandDelegateImpl.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/Applications/AWS/ElasticBeanstalk/eb/macosx/python2.7:/Applications/Android Studio.app/sdk/tools:/Applications/AWS/EC2/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator -DDEBUG -include /var/folders/2f/x57rd3lj40b25fhctxbk2hrm0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-hbjptoebzywnargimetfgohknydf/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.d --serialize-diagnostics /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.dia -c /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m -o /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o36"88727DD2-68AA-46E0-8B44-52A655EA570C-
+b800CB763-3FCA-4C4A-8ED8-5A841A328F44
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s413338795.222530
+e413338797.070229
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o
+x/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDV.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVPlugin.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVViewController.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVDebug.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVTimer.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVJSON.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m202"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o Classes/CDVCommandQueue.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler3d2739ab0ca3b841^83fb11ad0ca3b841^---0#0#1#-19%DVTDocumentLocation2@92"file:///Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m0000000000000000^3851"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o Classes/CDVCommandQueue.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/Applications/AWS/ElasticBeanstalk/eb/macosx/python2.7:/Applications/Android Studio.app/sdk/tools:/Applications/AWS/EC2/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator -DDEBUG -include /var/folders/2f/x57rd3lj40b25fhctxbk2hrm0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-hbjptoebzywnargimetfgohknydf/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.d --serialize-diagnostics /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.dia -c /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m -o /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o36"6180A1D5-34C7-4C6B-8D73-761CAABD083C-
+b800CB763-3FCA-4C4A-8ED8-5A841A328F44
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVConfigParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s413338796.973469
+e413338797.223053
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o
+x/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVConfigParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVConfigParser.m
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVConfigParser.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVConfigParser.m202"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o Classes/CDVConfigParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compileree5bf9ac0ca3b841^bd1939ad0ca3b841^---0#0#1#-19%DVTDocumentLocation2@92"file:///Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVConfigParser.m0000000000000000^3851"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o Classes/CDVConfigParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/Applications/AWS/ElasticBeanstalk/eb/macosx/python2.7:/Applications/Android Studio.app/sdk/tools:/Applications/AWS/EC2/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator -DDEBUG -include /var/folders/2f/x57rd3lj40b25fhctxbk2hrm0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-hbjptoebzywnargimetfgohknydf/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.d --serialize-diagnostics /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.dia -c /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVConfigParser.m -o /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o36"7E1C4E53-B681-4559-AE5A-C5EE72F94747-
+b800CB763-3FCA-4C4A-8ED8-5A841A328F44
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s413338790.959586
+e413338791.118651
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o
+x/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVJSON.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m212"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o Classes/CDVInvokedUrlCommand.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerd2c6f5a60ca3b841^09a61ea70ca3b841^---0#0#1#-19%DVTDocumentLocation2@97"file:///Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m0000000000000000^3881"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o Classes/CDVInvokedUrlCommand.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/Applications/AWS/ElasticBeanstalk/eb/macosx/python2.7:/Applications/Android Studio.app/sdk/tools:/Applications/AWS/EC2/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator -DDEBUG -include /var/folders/2f/x57rd3lj40b25fhctxbk2hrm0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-hbjptoebzywnargimetfgohknydf/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.d --serialize-diagnostics /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.dia -c /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m -o /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o36"ECA4F7DB-124E-44A5-821F-28548893D4FE-
+b800CB763-3FCA-4C4A-8ED8-5A841A328F44
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVJSON.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s413338797.070938
+e413338797.110433
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o
+x/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVJSON.m
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVJSON.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVJSON.m186"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o Classes/CDVJSON.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler0e4c12ad0ca3b841^35451cad0ca3b841^---0#0#1#-19%DVTDocumentLocation2@84"file:///Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVJSON.m0000000000000000^3803"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o Classes/CDVJSON.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/Applications/AWS/ElasticBeanstalk/eb/macosx/python2.7:/Applications/Android Studio.app/sdk/tools:/Applications/AWS/EC2/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator -DDEBUG -include /var/folders/2f/x57rd3lj40b25fhctxbk2hrm0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-hbjptoebzywnargimetfgohknydf/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.d --serialize-diagnostics /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.dia -c /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVJSON.m -o /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o36"EC6F731D-1CB8-40B2-97FC-EBC31C1B3C3C-
+b800CB763-3FCA-4C4A-8ED8-5A841A328F44
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s413338792.867519
+e413338794.425654
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o
+x/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVPlugin.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDV.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVViewController.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVDebug.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVTimer.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVJSON.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m202"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o Classes/CDVLocalStorage.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler6039dea80ca3b841^77f76caa0ca3b841^---0#0#1#-19%DVTDocumentLocation2@92"file:///Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m0000000000000000^3851"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o Classes/CDVLocalStorage.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/Applications/AWS/ElasticBeanstalk/eb/macosx/python2.7:/Applications/Android Studio.app/sdk/tools:/Applications/AWS/EC2/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator -DDEBUG -include /var/folders/2f/x57rd3lj40b25fhctxbk2hrm0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-hbjptoebzywnargimetfgohknydf/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.d --serialize-diagnostics /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.dia -c /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m -o /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o36"F5B40B48-303E-47D7-979B-4879DD8435E1-
+b800CB763-3FCA-4C4A-8ED8-5A841A328F44
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVPlugin.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s413338791.250298
+e413338792.667775
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o
+x/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVPlugin.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVPlugin.m
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVPlugin.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVPlugin.m190"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o Classes/CDVPlugin.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler333640a70ca3b841^38f4aaa80ca3b841^---0#0#1#-19%DVTDocumentLocation2@86"file:///Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVPlugin.m0000000000000000^3815"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o Classes/CDVPlugin.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/Applications/AWS/ElasticBeanstalk/eb/macosx/python2.7:/Applications/Android Studio.app/sdk/tools:/Applications/AWS/EC2/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator -DDEBUG -include /var/folders/2f/x57rd3lj40b25fhctxbk2hrm0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-hbjptoebzywnargimetfgohknydf/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.d --serialize-diagnostics /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.dia -c /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVPlugin.m -o /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o36"5F2129AC-2D6F-4B72-BCF6-3E9F58BADBDF-
+b800CB763-3FCA-4C4A-8ED8-5A841A328F44
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVPluginResult.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s413338791.158231
+e413338791.391032
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o
+x/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVPluginResult.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVPluginResult.m
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVJSON.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVDebug.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVPluginResult.m202"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o Classes/CDVPluginResult.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler72a328a70ca3b841^08c863a70ca3b841^---0#0#1#-19%DVTDocumentLocation2@92"file:///Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVPluginResult.m0000000000000000^3851"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o Classes/CDVPluginResult.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/Applications/AWS/ElasticBeanstalk/eb/macosx/python2.7:/Applications/Android Studio.app/sdk/tools:/Applications/AWS/EC2/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator -DDEBUG -include /var/folders/2f/x57rd3lj40b25fhctxbk2hrm0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-hbjptoebzywnargimetfgohknydf/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.d --serialize-diagnostics /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.dia -c /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVPluginResult.m -o /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o36"C8ECBAF4-4606-4B50-A1F3-FD493BEB8B68-
+b800CB763-3FCA-4C4A-8ED8-5A841A328F44
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVShared.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s413338798.818746
+e413338798.925479
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o
+x/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVShared.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVShared.m
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVShared.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVShared.m190"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o Classes/CDVShared.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler73bdd1ae0ca3b841^42ececae0ca3b841^---0#0#1#-19%DVTDocumentLocation2@86"file:///Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVShared.m0000000000000000^3815"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o Classes/CDVShared.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/Applications/AWS/ElasticBeanstalk/eb/macosx/python2.7:/Applications/Android Studio.app/sdk/tools:/Applications/AWS/EC2/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator -DDEBUG -include /var/folders/2f/x57rd3lj40b25fhctxbk2hrm0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-hbjptoebzywnargimetfgohknydf/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.d --serialize-diagnostics /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.dia -c /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVShared.m -o /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o36"8AA57A68-A23F-4451-A63F-386A3201913A-
+b800CB763-3FCA-4C4A-8ED8-5A841A328F44
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVTimer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s413338798.695775
+e413338798.818413
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o
+x/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVTimer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVTimer.m
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVTimer.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVTimer.m188"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o Classes/CDVTimer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerdd3fb2ae0ca3b841^33c4d1ae0ca3b841^---0#0#1#-19%DVTDocumentLocation2@85"file:///Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVTimer.m0000000000000000^3809"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o Classes/CDVTimer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/Applications/AWS/ElasticBeanstalk/eb/macosx/python2.7:/Applications/Android Studio.app/sdk/tools:/Applications/AWS/EC2/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator -DDEBUG -include /var/folders/2f/x57rd3lj40b25fhctxbk2hrm0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-hbjptoebzywnargimetfgohknydf/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.d --serialize-diagnostics /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.dia -c /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVTimer.m -o /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o36"67A64D34-43AC-4D40-9C5C-6BAFF5A42D5D-
+b800CB763-3FCA-4C4A-8ED8-5A841A328F44
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s413338791.712698
+e413338792.866150
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o
+x/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVViewController.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVPlugin.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m200"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o Classes/CDVURLProtocol.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler0b96b6a70ca3b841^cfbbdda80ca3b841^---0#0#1#-19%DVTDocumentLocation2@91"file:///Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m0000000000000000^3845"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o Classes/CDVURLProtocol.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/Applications/AWS/ElasticBeanstalk/eb/macosx/python2.7:/Applications/Android Studio.app/sdk/tools:/Applications/AWS/EC2/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator -DDEBUG -include /var/folders/2f/x57rd3lj40b25fhctxbk2hrm0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-hbjptoebzywnargimetfgohknydf/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.d --serialize-diagnostics /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.dia -c /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m -o /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o36"BA2FD540-E10D-4663-BF66-603E5FCD8F7D-
+b800CB763-3FCA-4C4A-8ED8-5A841A328F44
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s413338797.143455
+e413338798.695443
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o
+x/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m204"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o Classes/CDVUserAgentUtil.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerbadc24ad0ca3b841^0a49b2ae0ca3b841^---0#0#1#-19%DVTDocumentLocation2@93"file:///Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m0000000000000000^3857"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o Classes/CDVUserAgentUtil.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/Applications/AWS/ElasticBeanstalk/eb/macosx/python2.7:/Applications/Android Studio.app/sdk/tools:/Applications/AWS/EC2/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator -DDEBUG -include /var/folders/2f/x57rd3lj40b25fhctxbk2hrm0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-hbjptoebzywnargimetfgohknydf/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.d --serialize-diagnostics /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.dia -c /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m -o /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o36"80161CA9-AA32-4ED0-938A-EB2CA72882BF-
+b800CB763-3FCA-4C4A-8ED8-5A841A328F44
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s413338792.671276
+e413338795.303343
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o
+x/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVViewController.m
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDV.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVPlugin.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVViewController.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVDebug.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVTimer.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVJSON.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVConfigParser.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVViewController.m206"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o Classes/CDVViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler69ffaba80ca3b841^d2a74dab0ca3b841^---0#0#1#-19%DVTDocumentLocation2@94"file:///Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVViewController.m0000000000000000^3863"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o Classes/CDVViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/Applications/AWS/ElasticBeanstalk/eb/macosx/python2.7:/Applications/Android Studio.app/sdk/tools:/Applications/AWS/EC2/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator -DDEBUG -include /var/folders/2f/x57rd3lj40b25fhctxbk2hrm0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-hbjptoebzywnargimetfgohknydf/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.d --serialize-diagnostics /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.dia -c /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVViewController.m -o /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o36"98854158-8CDD-439A-B9D9-40A644D1DC1C-
+b800CB763-3FCA-4C4A-8ED8-5A841A328F44
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s413338797.223426
+e413338798.932036
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o
+x/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m208"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o Classes/CDVWebViewDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerd25239ad0ca3b841^cba0eeae0ca3b841^---0#0#1#-19%DVTDocumentLocation2@95"file:///Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m0000000000000000^3869"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o Classes/CDVWebViewDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/Applications/AWS/ElasticBeanstalk/eb/macosx/python2.7:/Applications/Android Studio.app/sdk/tools:/Applications/AWS/EC2/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator -DDEBUG -include /var/folders/2f/x57rd3lj40b25fhctxbk2hrm0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-hbjptoebzywnargimetfgohknydf/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.d --serialize-diagnostics /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.dia -c /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m -o /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o36"07FDCE3D-9CBE-447D-BF40-768709D8B8DF-
+b800CB763-3FCA-4C4A-8ED8-5A841A328F44
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVWhitelist.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s413338791.423850
+e413338791.712433
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o
+x/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVWhitelist.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVWhitelist.m
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVWhitelist.m196"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o Classes/CDVWhitelist.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler14eb6ca70ca3b841^32acb6a70ca3b841^---0#0#1#-19%DVTDocumentLocation2@89"file:///Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVWhitelist.m0000000000000000^3833"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o Classes/CDVWhitelist.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/Applications/AWS/ElasticBeanstalk/eb/macosx/python2.7:/Applications/Android Studio.app/sdk/tools:/Applications/AWS/EC2/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator -DDEBUG -include /var/folders/2f/x57rd3lj40b25fhctxbk2hrm0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-hbjptoebzywnargimetfgohknydf/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.d --serialize-diagnostics /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.dia -c /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVWhitelist.m -o /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o36"E9E739F1-5AF3-4E28-87E3-595A2AC29186-
+b800CB763-3FCA-4C4A-8ED8-5A841A328F44
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s413338795.186153
+e413338795.220763
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o
+x/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m210"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o Classes/NSArray+Comparisons.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler36c92fab0ca3b841^cb8338ab0ca3b841^---0#0#1#-19%DVTDocumentLocation2@96"file:///Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m0000000000000000^3875"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o Classes/NSArray+Comparisons.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/Applications/AWS/ElasticBeanstalk/eb/macosx/python2.7:/Applications/Android Studio.app/sdk/tools:/Applications/AWS/EC2/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator -DDEBUG -include /var/folders/2f/x57rd3lj40b25fhctxbk2hrm0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-hbjptoebzywnargimetfgohknydf/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.d --serialize-diagnostics /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.dia -c /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m -o /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o36"DAC75879-A1B4-4D25-B655-9725DCFB6B44-
+b800CB763-3FCA-4C4A-8ED8-5A841A328F44
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/NSData+Base64.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s413338791.119026
+e413338791.157967
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o
+x/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/NSData+Base64.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/NSData+Base64.m
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/NSData+Base64.m198"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o Classes/NSData+Base64.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler889c1ea70ca3b841^a47128a70ca3b841^---0#0#1#-19%DVTDocumentLocation2@90"file:///Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/NSData+Base64.m0000000000000000^3839"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o Classes/NSData+Base64.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/Applications/AWS/ElasticBeanstalk/eb/macosx/python2.7:/Applications/Android Studio.app/sdk/tools:/Applications/AWS/EC2/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator -DDEBUG -include /var/folders/2f/x57rd3lj40b25fhctxbk2hrm0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-hbjptoebzywnargimetfgohknydf/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.d --serialize-diagnostics /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.dia -c /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/NSData+Base64.m -o /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o36"E2C04D2F-A471-4E64-9ADE-7F6EE6297E08-
+b800CB763-3FCA-4C4A-8ED8-5A841A328F44
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s413338790.958800
+e413338791.249956
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o
+x/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m218"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o Classes/NSDictionary+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler319af5a60ca3b841^703f40a70ca3b841^---0#0#1#-19%DVTDocumentLocation2@100"file:///Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m0000000000000000^3899"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o Classes/NSDictionary+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/Applications/AWS/ElasticBeanstalk/eb/macosx/python2.7:/Applications/Android Studio.app/sdk/tools:/Applications/AWS/EC2/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator -DDEBUG -include /var/folders/2f/x57rd3lj40b25fhctxbk2hrm0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-hbjptoebzywnargimetfgohknydf/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.d --serialize-diagnostics /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.dia -c /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m -o /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o36"275FF2AB-547E-4E52-8D79-37E11A9E5797-
+b800CB763-3FCA-4C4A-8ED8-5A841A328F44
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s413338791.391423
+e413338791.422951
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o
+x/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Compile /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m230"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o Classes/NSMutableArray+QueueAdditions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler566464a70ca3b841^f04c6ca70ca3b841^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m0000000000000000^3935"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o Classes/NSMutableArray+QueueAdditions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/Applications/AWS/ElasticBeanstalk/eb/macosx/python2.7:/Applications/Android Studio.app/sdk/tools:/Applications/AWS/EC2/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator -DDEBUG -include /var/folders/2f/x57rd3lj40b25fhctxbk2hrm0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-hbjptoebzywnargimetfgohknydf/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.d --serialize-diagnostics /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.dia -c /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m -o /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o36"BDDB8BDA-E52A-4F78-9873-BA2964166CFA-
+b800CB763-3FCA-4C4A-8ED8-5A841A328F44
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s413338794.427376
+e413338795.185803
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o
+x/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m210"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o Classes/UIDevice+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerf4886daa0ca3b841^eb902fab0ca3b841^---0#0#1#-19%DVTDocumentLocation2@96"file:///Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m0000000000000000^3875"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o Classes/UIDevice+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/Applications/AWS/ElasticBeanstalk/eb/macosx/python2.7:/Applications/Android Studio.app/sdk/tools:/Applications/AWS/EC2/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator -DDEBUG -include /var/folders/2f/x57rd3lj40b25fhctxbk2hrm0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-hbjptoebzywnargimetfgohknydf/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.d --serialize-diagnostics /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.dia -c /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m -o /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o36"606EECDF-8D83-4CF7-B550-E93DD38A8196-
+b800CB763-3FCA-4C4A-8ED8-5A841A328F44
+
+CCpHeader Classes/CDV.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDV.h
+s413338789.391780
+e413338789.394298
+r1
+xCpHeader
+xClasses/CDV.h
+x/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDV.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Copy /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDV.h108"CpHeader Classes/CDV.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDV.hb76164a50ca3b841^594f65a50ca3b841^---0#0#1#-19%DVTDocumentLocation2@92"file:///Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDV.h00344406deffdf42^823"CpHeader Classes/CDV.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDV.h    cd /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/Applications/AWS/ElasticBeanstalk/eb/macosx/python2.7:/Applications/Android Studio.app/sdk/tools:/Applications/AWS/EC2/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDV.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova36"7DCE8DCE-19DA-4591-81C2-F8300CA1EA21-
+b800CB763-3FCA-4C4A-8ED8-5A841A328F44
+
+CCpHeader Classes/CDVAvailability.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+s413338789.392875
+e413338789.398716
+r1
+xCpHeader
+xClasses/CDVAvailability.h
+x/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Copy /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h132"CpHeader Classes/CDVAvailability.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h2a1c65a50ca3b841^10b066a50ca3b841^---0#0#1#-19%DVTDocumentLocation2@104"file:///Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h00344406deffdf42^859"CpHeader Classes/CDVAvailability.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h    cd /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/Applications/AWS/ElasticBeanstalk/eb/macosx/python2.7:/Applications/Android Studio.app/sdk/tools:/Applications/AWS/EC2/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVAvailability.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova36"EF35B681-2202-4C07-BDF7-CAFB15C37901-
+b800CB763-3FCA-4C4A-8ED8-5A841A328F44
+
+CCpHeader Classes/CDVCommandDelegate.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+s413338789.389304
+e413338789.392270
+r1
+xCpHeader
+xClasses/CDVCommandDelegate.h
+x/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Copy /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h138"CpHeader Classes/CDVCommandDelegate.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.hbabe63a50ca3b841^634165a50ca3b841^---0#0#1#-19%DVTDocumentLocation2@107"file:///Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h00344406deffdf42^868"CpHeader Classes/CDVCommandDelegate.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h    cd /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/Applications/AWS/ElasticBeanstalk/eb/macosx/python2.7:/Applications/Android Studio.app/sdk/tools:/Applications/AWS/EC2/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova36"1B8B2821-1314-4F06-8356-60C2F610E024-
+b800CB763-3FCA-4C4A-8ED8-5A841A328F44
+
+CCpHeader Classes/CDVCommandDelegateImpl.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
+s413338789.403995
+e413338789.405802
+r1
+xCpHeader
+xClasses/CDVCommandDelegateImpl.h
+x/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Copy /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h146"CpHeader Classes/CDVCommandDelegateImpl.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h278367a50ca3b841^49a26ba50ca3b841^---0#0#1#-19%DVTDocumentLocation2@111"file:///Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h00344406deffdf42^880"CpHeader Classes/CDVCommandDelegateImpl.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h    cd /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/Applications/AWS/ElasticBeanstalk/eb/macosx/python2.7:/Applications/Android Studio.app/sdk/tools:/Applications/AWS/EC2/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova36"912B4541-0322-4180-9CC5-E851BC3FABA2-
+b800CB763-3FCA-4C4A-8ED8-5A841A328F44
+
+CCpHeader Classes/CDVCommandQueue.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+s413338789.402890
+e413338789.405790
+r1
+xCpHeader
+xClasses/CDVCommandQueue.h
+x/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Copy /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h132"CpHeader Classes/CDVCommandQueue.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h193967a50ca3b841^4be767a50ca3b841^---0#0#1#-19%DVTDocumentLocation2@104"file:///Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h00344406deffdf42^859"CpHeader Classes/CDVCommandQueue.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h    cd /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/Applications/AWS/ElasticBeanstalk/eb/macosx/python2.7:/Applications/Android Studio.app/sdk/tools:/Applications/AWS/EC2/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova36"8782F7A9-4154-443A-93DB-913FFDF54FFF-
+b800CB763-3FCA-4C4A-8ED8-5A841A328F44
+
+CCpHeader Classes/CDVConfigParser.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h
+s413338789.409239
+e413338789.421568
+r1
+xCpHeader
+xClasses/CDVConfigParser.h
+x/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Copy /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h132"CpHeader Classes/CDVConfigParser.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h4a9b6aa50ca3b841^b7f16ba50ca3b841^---0#0#1#-19%DVTDocumentLocation2@104"file:///Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h00344406deffdf42^859"CpHeader Classes/CDVConfigParser.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h    cd /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/Applications/AWS/ElasticBeanstalk/eb/macosx/python2.7:/Applications/Android Studio.app/sdk/tools:/Applications/AWS/EC2/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVConfigParser.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova36"CD15A142-87FA-47A6-8C85-2EE5FC57F4B3-
+b800CB763-3FCA-4C4A-8ED8-5A841A328F44
+
+CCpHeader Classes/CDVDebug.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVDebug.h
+s413338789.378425
+e413338789.380087
+r1
+xCpHeader
+xClasses/CDVDebug.h
+x/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVDebug.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Copy /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVDebug.h118"CpHeader Classes/CDVDebug.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVDebug.h77f360a50ca3b841^422562a50ca3b841^---0#0#1#-19%DVTDocumentLocation2@97"file:///Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVDebug.h00344406deffdf42^838"CpHeader Classes/CDVDebug.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVDebug.h    cd /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/Applications/AWS/ElasticBeanstalk/eb/macosx/python2.7:/Applications/Android Studio.app/sdk/tools:/Applications/AWS/EC2/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVDebug.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova36"DEC03EB3-CA50-4BD9-A460-54ED84809765-
+b800CB763-3FCA-4C4A-8ED8-5A841A328F44
+
+CCpHeader Classes/CDVInvokedUrlCommand.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+s413338789.367909
+e413338789.373171
+r1
+xCpHeader
+xClasses/CDVInvokedUrlCommand.h
+x/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Copy /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h142"CpHeader Classes/CDVInvokedUrlCommand.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h74995ea50ca3b841^ac8b5fa50ca3b841^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h00344406deffdf42^874"CpHeader Classes/CDVInvokedUrlCommand.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h    cd /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/Applications/AWS/ElasticBeanstalk/eb/macosx/python2.7:/Applications/Android Studio.app/sdk/tools:/Applications/AWS/EC2/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova36"7B7B005D-5334-4295-84A3-2B7A29BAB12C-
+b800CB763-3FCA-4C4A-8ED8-5A841A328F44
+
+CCpHeader Classes/CDVJSON.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVJSON.h
+s413338789.420032
+e413338789.422552
+r1
+xCpHeader
+xClasses/CDVJSON.h
+x/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVJSON.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Copy /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVJSON.h116"CpHeader Classes/CDVJSON.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVJSON.h1b9d6ba50ca3b841^bc926ca50ca3b841^---0#0#1#-19%DVTDocumentLocation2@96"file:///Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVJSON.h00344406deffdf42^835"CpHeader Classes/CDVJSON.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVJSON.h    cd /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/Applications/AWS/ElasticBeanstalk/eb/macosx/python2.7:/Applications/Android Studio.app/sdk/tools:/Applications/AWS/EC2/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVJSON.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova36"DEA15EF5-2413-4B77-9CB7-8B90C47AC7F2-
+b800CB763-3FCA-4C4A-8ED8-5A841A328F44
+
+CCpHeader Classes/CDVLocalStorage.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h
+s413338789.394505
+e413338789.397949
+r1
+xCpHeader
+xClasses/CDVLocalStorage.h
+x/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Copy /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h132"CpHeader Classes/CDVLocalStorage.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.hb61365a50ca3b841^9f7466a50ca3b841^---0#0#1#-19%DVTDocumentLocation2@104"file:///Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h00344406deffdf42^859"CpHeader Classes/CDVLocalStorage.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h    cd /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/Applications/AWS/ElasticBeanstalk/eb/macosx/python2.7:/Applications/Android Studio.app/sdk/tools:/Applications/AWS/EC2/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova36"1E04F3D3-917C-433B-A19A-43211529DC83-
+b800CB763-3FCA-4C4A-8ED8-5A841A328F44
+
+CCpHeader Classes/CDVPlugin.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+s413338789.376550
+e413338789.381088
+r1
+xCpHeader
+xClasses/CDVPlugin.h
+x/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Copy /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h120"CpHeader Classes/CDVPlugin.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h367760a50ca3b841^c11f62a50ca3b841^---0#0#1#-19%DVTDocumentLocation2@98"file:///Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h00344406deffdf42^841"CpHeader Classes/CDVPlugin.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h    cd /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/Applications/AWS/ElasticBeanstalk/eb/macosx/python2.7:/Applications/Android Studio.app/sdk/tools:/Applications/AWS/EC2/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVPlugin.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova36"CE97D812-C5AC-4E6D-AD07-A0B0EB83244E-
+b800CB763-3FCA-4C4A-8ED8-5A841A328F44
+
+CCpHeader Classes/CDVPluginResult.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+s413338789.374771
+e413338789.377773
+r1
+xCpHeader
+xClasses/CDVPluginResult.h
+x/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Copy /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h132"CpHeader Classes/CDVPluginResult.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.hd44760a50ca3b841^22fa61a50ca3b841^---0#0#1#-19%DVTDocumentLocation2@104"file:///Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h00344406deffdf42^859"CpHeader Classes/CDVPluginResult.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h    cd /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/Applications/AWS/ElasticBeanstalk/eb/macosx/python2.7:/Applications/Android Studio.app/sdk/tools:/Applications/AWS/EC2/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVPluginResult.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova36"1114B589-8A94-43A6-81A6-7F172B4A307E-
+b800CB763-3FCA-4C4A-8ED8-5A841A328F44
+
+CCpHeader Classes/CDVScreenOrientationDelegate.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+s413338789.407632
+e413338789.416374
+r1
+xCpHeader
+xClasses/CDVScreenOrientationDelegate.h
+x/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Copy /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h158"CpHeader Classes/CDVScreenOrientationDelegate.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.hc66d68a50ca3b841^01be6ba50ca3b841^---0#0#1#-19%DVTDocumentLocation2@117"file:///Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h00344406deffdf42^898"CpHeader Classes/CDVScreenOrientationDelegate.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h    cd /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/Applications/AWS/ElasticBeanstalk/eb/macosx/python2.7:/Applications/Android Studio.app/sdk/tools:/Applications/AWS/EC2/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova36"36326751-6DDF-401B-993A-FCDFB2414E9F-
+b800CB763-3FCA-4C4A-8ED8-5A841A328F44
+
+CCpHeader Classes/CDVShared.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVShared.h
+s413338789.407022
+e413338789.409041
+r1
+xCpHeader
+xClasses/CDVShared.h
+x/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVShared.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Copy /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVShared.h120"CpHeader Classes/CDVShared.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVShared.hf54768a50ca3b841^78b66ba50ca3b841^---0#0#1#-19%DVTDocumentLocation2@98"file:///Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVShared.h00344406deffdf42^841"CpHeader Classes/CDVShared.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVShared.h    cd /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/Applications/AWS/ElasticBeanstalk/eb/macosx/python2.7:/Applications/Android Studio.app/sdk/tools:/Applications/AWS/EC2/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVShared.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova36"F9CC3CDF-A9E7-4CC0-A70E-C46BD2C43357-
+b800CB763-3FCA-4C4A-8ED8-5A841A328F44
+
+CCpHeader Classes/CDVTimer.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVTimer.h
+s413338789.425100
+e413338789.427522
+r1
+xCpHeader
+xClasses/CDVTimer.h
+x/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVTimer.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Copy /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVTimer.h118"CpHeader Classes/CDVTimer.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVTimer.h65396da50ca3b841^96066ea50ca3b841^---0#0#1#-19%DVTDocumentLocation2@97"file:///Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVTimer.h00344406deffdf42^838"CpHeader Classes/CDVTimer.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVTimer.h    cd /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/Applications/AWS/ElasticBeanstalk/eb/macosx/python2.7:/Applications/Android Studio.app/sdk/tools:/Applications/AWS/EC2/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVTimer.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova36"616D4377-70B8-48ED-9085-14EDF4482406-
+b800CB763-3FCA-4C4A-8ED8-5A841A328F44
+
+CCpHeader Classes/CDVURLProtocol.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h
+s413338789.385802
+e413338789.387432
+r1
+xCpHeader
+xClasses/CDVURLProtocol.h
+x/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Copy /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h130"CpHeader Classes/CDVURLProtocol.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h5ed862a50ca3b841^59c064a50ca3b841^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h00344406deffdf42^856"CpHeader Classes/CDVURLProtocol.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h    cd /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/Applications/AWS/ElasticBeanstalk/eb/macosx/python2.7:/Applications/Android Studio.app/sdk/tools:/Applications/AWS/EC2/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova36"DEEA8DA7-1D37-4D5B-9FBD-F6C7339A92FC-
+b800CB763-3FCA-4C4A-8ED8-5A841A328F44
+
+CCpHeader Classes/CDVUserAgentUtil.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h
+s413338789.424192
+e413338789.425546
+r1
+xCpHeader
+xClasses/CDVUserAgentUtil.h
+x/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Copy /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h134"CpHeader Classes/CDVUserAgentUtil.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h7eac6ca50ca3b841^34f66da50ca3b841^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h00344406deffdf42^862"CpHeader Classes/CDVUserAgentUtil.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h    cd /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/Applications/AWS/ElasticBeanstalk/eb/macosx/python2.7:/Applications/Android Studio.app/sdk/tools:/Applications/AWS/EC2/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova36"689C4319-99D1-4E4A-B823-56769DF6BCC8-
+b800CB763-3FCA-4C4A-8ED8-5A841A328F44
+
+CCpHeader Classes/CDVViewController.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+s413338789.388684
+e413338789.391557
+r1
+xCpHeader
+xClasses/CDVViewController.h
+x/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Copy /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVViewController.h136"CpHeader Classes/CDVViewController.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVViewController.haf9663a50ca3b841^f03065a50ca3b841^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVViewController.h00344406deffdf42^865"CpHeader Classes/CDVViewController.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVViewController.h    cd /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/Applications/AWS/ElasticBeanstalk/eb/macosx/python2.7:/Applications/Android Studio.app/sdk/tools:/Applications/AWS/EC2/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVViewController.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova36"6BE9DF37-9713-4BC0-A6B2-E639E60B6B4F-
+b800CB763-3FCA-4C4A-8ED8-5A841A328F44
+
+CCpHeader Classes/CDVWebViewDelegate.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h
+s413338789.422727
+e413338789.424926
+r1
+xCpHeader
+xClasses/CDVWebViewDelegate.h
+x/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Copy /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h138"CpHeader Classes/CDVWebViewDelegate.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h6a4c6ca50ca3b841^cceb6ca50ca3b841^---0#0#1#-19%DVTDocumentLocation2@107"file:///Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h00344406deffdf42^868"CpHeader Classes/CDVWebViewDelegate.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h    cd /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/Applications/AWS/ElasticBeanstalk/eb/macosx/python2.7:/Applications/Android Studio.app/sdk/tools:/Applications/AWS/EC2/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova36"E1E41827-D6B4-4EEA-AED1-FFC5419D28B5-
+b800CB763-3FCA-4C4A-8ED8-5A841A328F44
+
+CCpHeader Classes/CDVWhitelist.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+s413338789.382819
+e413338789.387428
+r1
+xCpHeader
+xClasses/CDVWhitelist.h
+x/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Copy /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h126"CpHeader Classes/CDVWhitelist.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h3f5862a50ca3b841^ec3363a50ca3b841^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h00344406deffdf42^850"CpHeader Classes/CDVWhitelist.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h    cd /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/Applications/AWS/ElasticBeanstalk/eb/macosx/python2.7:/Applications/Android Studio.app/sdk/tools:/Applications/AWS/EC2/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/CDVWhitelist.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova36"33DA0185-D6B6-44AF-AD45-F78E7AE94E8F-
+b800CB763-3FCA-4C4A-8ED8-5A841A328F44
+
+CCpHeader Classes/NSArray+Comparisons.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h
+s413338789.399430
+e413338789.403388
+r1
+xCpHeader
+xClasses/NSArray+Comparisons.h
+x/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Copy /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h140"CpHeader Classes/NSArray+Comparisons.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h715866a50ca3b841^40a067a50ca3b841^---0#0#1#-19%DVTDocumentLocation2@108"file:///Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h00344406deffdf42^871"CpHeader Classes/NSArray+Comparisons.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h    cd /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/Applications/AWS/ElasticBeanstalk/eb/macosx/python2.7:/Applications/Android Studio.app/sdk/tools:/Applications/AWS/EC2/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova36"0370FBD7-C429-43C4-8AB8-F5F74D08A4B9-
+b800CB763-3FCA-4C4A-8ED8-5A841A328F44
+
+CCpHeader Classes/NSData+Base64.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h
+s413338789.373464
+e413338789.374808
+r1
+xCpHeader
+xClasses/NSData+Base64.h
+x/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Copy /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h128"CpHeader Classes/NSData+Base64.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h4bb15fa50ca3b841^105861a50ca3b841^---0#0#1#-19%DVTDocumentLocation2@102"file:///Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h00344406deffdf42^853"CpHeader Classes/NSData+Base64.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h    cd /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/Applications/AWS/ElasticBeanstalk/eb/macosx/python2.7:/Applications/Android Studio.app/sdk/tools:/Applications/AWS/EC2/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/NSData+Base64.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova36"4A3FBFA0-EE61-4C76-8257-B1C4798D64D0-
+b800CB763-3FCA-4C4A-8ED8-5A841A328F44
+
+CCpHeader Classes/NSDictionary+Extensions.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h
+s413338789.365525
+e413338789.374136
+r1
+xCpHeader
+xClasses/NSDictionary+Extensions.h
+x/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Copy /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h148"CpHeader Classes/NSDictionary+Extensions.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.ha6b55da50ca3b841^e81361a50ca3b841^---0#0#1#-19%DVTDocumentLocation2@112"file:///Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h00ac9831dfe4df42^883"CpHeader Classes/NSDictionary+Extensions.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h    cd /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/Applications/AWS/ElasticBeanstalk/eb/macosx/python2.7:/Applications/Android Studio.app/sdk/tools:/Applications/AWS/EC2/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova36"05D794F7-0EDB-4493-B1CD-602F9461357E-
+b800CB763-3FCA-4C4A-8ED8-5A841A328F44
+
+CCpHeader Classes/NSMutableArray+QueueAdditions.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+s413338789.381297
+e413338789.384317
+r1
+xCpHeader
+xClasses/NSMutableArray+QueueAdditions.h
+x/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Copy /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h160"CpHeader Classes/NSMutableArray+QueueAdditions.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h7db361a50ca3b841^da7262a50ca3b841^---0#0#1#-19%DVTDocumentLocation2@118"file:///Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h00344406deffdf42^901"CpHeader Classes/NSMutableArray+QueueAdditions.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h    cd /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/Applications/AWS/ElasticBeanstalk/eb/macosx/python2.7:/Applications/Android Studio.app/sdk/tools:/Applications/AWS/EC2/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova36"53780A31-FB06-4FE2-BBC4-9A2C41D530F3-
+b800CB763-3FCA-4C4A-8ED8-5A841A328F44
+
+CCpHeader Classes/UIDevice+Extensions.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h
+s413338789.398187
+e413338789.402665
+r1
+xCpHeader
+xClasses/UIDevice+Extensions.h
+x/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Copy /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h140"CpHeader Classes/UIDevice+Extensions.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h140566a50ca3b841^719167a50ca3b841^---0#0#1#-19%DVTDocumentLocation2@108"file:///Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h00344406deffdf42^871"CpHeader Classes/UIDevice+Extensions.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h    cd /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/Applications/AWS/ElasticBeanstalk/eb/macosx/python2.7:/Applications/Android Studio.app/sdk/tools:/Applications/AWS/EC2/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include/Cordova36"7E541A24-0D40-4ED3-97E5-66A9A0E89752-
+b800CB763-3FCA-4C4A-8ED8-5A841A328F44
+
+CLibtool /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/libCordova.a normal i386
+s413338798.935418
+e413338798.954385
+r1
+xLibtool
+x/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/libCordova.a
+xnormal
+xi386
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Libtool /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/libCordova.a normal i38696"Libtool /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/libCordova.a normal i3868195efae0ca3b841^2464f4ae0ca3b841^---0#0#1#--1157"Libtool /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/libCordova.a normal i386    cd /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/Applications/AWS/ElasticBeanstalk/eb/macosx/python2.7:/Applications/Android Studio.app/sdk/tools:/Applications/AWS/EC2/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator -filelist /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/Cordova.LinkFileList -o /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/libCordova.a36"8F81D75D-35A9-4E3E-8AFD-E7261BFEB974-
+b800CB763-3FCA-4C4A-8ED8-5A841A328F44
+
+CProcessPCH /var/folders/2f/x57rd3lj40b25fhctxbk2hrm0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-hbjptoebzywnargimetfgohknydf/CordovaLib_Prefix.pch.pch CordovaLib_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s413338789.428459
+e413338790.956712
+r1
+xProcessPCH
+x/var/folders/2f/x57rd3lj40b25fhctxbk2hrm0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-hbjptoebzywnargimetfgohknydf/CordovaLib_Prefix.pch.pch
+xCordovaLib_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/CordovaLib_Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection32"Precompile CordovaLib_Prefix.pch291"ProcessPCH /var/folders/2f/x57rd3lj40b25fhctxbk2hrm0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-hbjptoebzywnargimetfgohknydf/CordovaLib_Prefix.pch.pch CordovaLib_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler6fd56da50ca3b841^0c04f5a60ca3b841^---0#0#1#-19%DVTDocumentLocation2@88"file:///Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/CordovaLib_Prefix.pch0000000000000000^3836"ProcessPCH /var/folders/2f/x57rd3lj40b25fhctxbk2hrm0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-hbjptoebzywnargimetfgohknydf/CordovaLib_Prefix.pch.pch CordovaLib_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/Applications/AWS/ElasticBeanstalk/eb/macosx/python2.7:/Applications/Android Studio.app/sdk/tools:/Applications/AWS/EC2/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/lucasarruda/Sites/ciandt_tt/platforms/ios/build/emulator -DDEBUG --serialize-diagnostics /var/folders/2f/x57rd3lj40b25fhctxbk2hrm0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-hbjptoebzywnargimetfgohknydf/CordovaLib_Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/2f/x57rd3lj40b25fhctxbk2hrm0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-hbjptoebzywnargimetfgohknydf/CordovaLib_Prefix.pch.d -c /Users/lucasarruda/Sites/ciandt_tt/platforms/ios/CordovaLib/CordovaLib_Prefix.pch -o /var/folders/2f/x57rd3lj40b25fhctxbk2hrm0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-hbjptoebzywnargimetfgohknydf/CordovaLib_Prefix.pch.pch36"32440111-8BE8-4065-B8FE-ED3FE2ADA7CC-
+b800CB763-3FCA-4C4A-8ED8-5A841A328F44
+

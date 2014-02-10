@@ -1,1 +1,1 @@
-{"prepare_queue":{"installed":[],"uninstalled":[]},"config_munge":{},"installed_plugins":{},"dependent_plugins":{}}
+{"prepare_queue":{"installed":[],"uninstalled":[]},"config_munge":{"config.xml":{"/*":{"<feature name=\"SpinnerPlugin\"><param name=\"ios-package\" value=\"SpinnerPlugin\" /></feature>":1}}},"installed_plugins":{"it.mobimentum.phonegapspinnerplugin":{"PACKAGE_NAME":"com.ciandt.tt"}},"dependent_plugins":{}}
