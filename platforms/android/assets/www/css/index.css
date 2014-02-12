@@ -24,7 +24,6 @@ html, body {
     -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
     -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
     -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
-    background: transparent url('../img/bgbody.jpg') repeat 0 0;
     /*
     background-color:#E4E4E4;
     background-image:linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
@@ -49,15 +48,14 @@ html, body {
 }
 
 .watch-logo {
-    position: absolute;
-    right: 0;
-    top: 0;
+
 }
 
 /* Portrait layout (default) */
 .header {               /* text area height */
     width:100%;                   /* text area width */                           /* offset horizontal: half of text area width */
     text-align: center;
+    background: transparent url('../img/bgbody.jpg') repeat 0 0;
 }
 
 /* Landscape layout (with min-width) */
@@ -77,11 +75,12 @@ h1 {
     overflow:visible;
     padding:0px;
     text-align:center;
-    position: relative;
-    top: 10px;
     width: 100%;
     line-height: 74px;
     background-color: #FFF;
+    margin-top: -3px;
+    border-bottom: 1px solid #41cfd7;
+    border-top: 2px solid #41cfd7;
 }
 
 .event {
@@ -163,7 +162,7 @@ h1 {
     text-shadow: 0px 1px 0px #FFF;
 }
 
-.btn:active {
+.btn:focus {
     top:51%;
         box-shadow:none;
     -moz-box-shadow:none;
@@ -185,6 +184,42 @@ h1 {
 }
 
 .ciandt-logo {
+
+}
+
+.content {
+    padding-top: 20px;
+    display: none;
+}
+
+.content .auth {
+    width: 235px;
+    margin: 0 auto;
+}
+
+input[type=text],
+input[type=url],
+input[type=email],
+input[type=password] {
+  /* You can set width to whatever you like */
+    width: 200px;
+    font-family: "Roboto", "Droid Sans", sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 8px 8px 6px 8px;
     position: relative;
-    top: 4px;
+    display: block;
+    outline: none;
+    border: none;
+    background: bottom left linear-gradient(#a9a9a9, #a9a9a9) no-repeat, bottom center linear-gradient(#a9a9a9, #a9a9a9) repeat-x, bottom right linear-gradient(#a9a9a9, #a9a9a9) no-repeat;
+    background-size: 1px 6px, 1px 1px, 1px 6px;
+    margin-bottom: 15px;
+}
+
+input[type=text]:hover,
+input[type=url]:hover,
+input[type=email]:hover,
+input[type=password]:hover {
+    background: bottom left linear-gradient(#0099cc, #0099cc) no-repeat, bottom center linear-gradient(#0099cc, #0099cc) repeat-x, bottom right linear-gradient(#0099cc, #0099cc) no-repeat;
+    background-size: 1px 6px, 1px 1px, 1px 6px;
 }

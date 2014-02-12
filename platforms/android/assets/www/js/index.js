@@ -34,19 +34,38 @@ var app = {
     // function, we must explicity call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.initFastClick();
-        app.bindEvents();
+        app.start();
     },
 
     initFastClick: function() {
-        window.addEventListener('load', function() {
-            FastClick.attach(document.body);
-        }, false);
+        FastClick.attach(document.body);
     },
 
-    bindEvents: function() {
+    start: function() {
+        if (window.localStorage.remember == undefined) {
+            document.querySelectorAll(".content")[0].style.display = "block";
+        }
+
         var check_button = document.getElementById("check-button");
         check_button.onclick = function() {
-            spinnerplugin.show();
+            if (app.isOnline()) {
+                spinnerplugin.show();
+            }
+            else {
+                navigator.notification.alert(
+                    "Please verify your internet connection.",
+                    function() { },
+                    "Offline"
+                );
+            }
         }
+    },
+
+    isOnline: function() {
+        if (navigator.connection.type == Connection.UNKNOWN ||
+            navigator.connection.type == Connection.NONE) {
+            return false;
+        }
+        return true;
     }
 };

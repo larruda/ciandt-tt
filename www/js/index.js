@@ -38,19 +38,34 @@ var app = {
     },
 
     initFastClick: function() {
-        window.addEventListener('load', function() {
-            FastClick.attach(document.body);
-        }, false);
+        FastClick.attach(document.body);
     },
 
     start: function() {
-        if (localStorage.remember == undefined) {
-            document.querySelectorAll(".content").style.display = "block";
+        if (window.localStorage.remember == undefined) {
+            document.querySelectorAll(".content")[0].style.display = "block";
         }
 
         var check_button = document.getElementById("check-button");
         check_button.onclick = function() {
-            spinnerplugin.show();
+            if (app.isOnline()) {
+                spinnerplugin.show();
+            }
+            else {
+                navigator.notification.alert(
+                    "Please verify your internet connection.",
+                    function() { },
+                    "Offline"
+                );
+            }
         }
+    },
+
+    isOnline: function() {
+        if (navigator.connection.type == Connection.UNKNOWN ||
+            navigator.connection.type == Connection.NONE) {
+            return false;
+        }
+        return true;
     }
 };

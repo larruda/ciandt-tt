@@ -11,6 +11,12 @@
     <feature name="SpinnerPlugin">
         <param name="android-package" value="it.mobimentum.phonegapspinnerplugin.SpinnerPlugin" />
     </feature>
+    <feature name="Notification">
+        <param name="android-package" value="org.apache.cordova.dialogs.Notification" />
+    </feature>
+    <feature name="NetworkStatus">
+        <param name="android-package" value="org.apache.cordova.networkinformation.NetworkManager" />
+    </feature>
     <name>CI&amp;T TT</name>
     <description>
         Checks a CI&amp;T employee in/out CI&amp;T Time Tracking tool.

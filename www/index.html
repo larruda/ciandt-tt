@@ -28,18 +28,19 @@
     </head>
     <body ontouchstart="" onmouseover="">
         <div id="app-container">
-            <img class="ciandt-logo" src="img/logo-ciandt.png" />
-            <img class="watch-logo" src="img/imgHomePortal.png" />
             <div class="header">
+                <img class="ciandt-logo" src="img/logo-ciandt.png" />
+                <img class="watch-logo" src="img/imgHomePortal.png" />
                 <h1><span class="light">Time</span> <span class="dark">Tracking</span></h1>
             </div>
             <div class="content">
-                <label for="username">Username:</label>
-                <input type="text" id="username" name="username" />
-                <label for="password">Password:</label>
-                <input type="password" id="password" name="password" />
-                <input type="checkbox" name="remember" />
-                <label for="remember">Remember me, please.</label>
+                <div class="auth">
+                    <p>Please enter your CI&T credentials:</p>
+                    <input type="text" id="username" name="username" placeholder="username" />
+                    <input type="password" id="password" name="password" placeholder="password" />
+                    <input type="checkbox" name="remember" />
+                    <label for="remember">Remember me, please.</label>
+                </div>
             </div>
             <div class="footer">
                 <a class="btn" id="check-button"><span>Check in/out</span></a>
