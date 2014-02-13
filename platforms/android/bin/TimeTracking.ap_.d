@@ -26,6 +26,7 @@
 /Users/lucasarruda/Sites/ciandt_tt/platforms/android/assets/www/img/logo-ciandt.png \
 /Users/lucasarruda/Sites/ciandt_tt/platforms/android/assets/www/js/fastclick.js \
 /Users/lucasarruda/Sites/ciandt_tt/platforms/android/assets/www/js/index.js \
+/Users/lucasarruda/Sites/ciandt_tt/platforms/android/assets/www/js/statusbarnotification.js \
 /Users/lucasarruda/Sites/ciandt_tt/platforms/android/assets/www/js/tt.js \
 /Users/lucasarruda/Sites/ciandt_tt/platforms/android/assets/www/plugins/it.mobimentum.phonegapspinnerplugin \
 /Users/lucasarruda/Sites/ciandt_tt/platforms/android/assets/www/plugins/org.apache.cordova.dialogs \

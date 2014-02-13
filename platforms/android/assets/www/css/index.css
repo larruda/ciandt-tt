@@ -162,7 +162,7 @@ h1 {
     text-shadow: 0px 1px 0px #FFF;
 }
 
-.btn:focus {
+.btn:active {
     top:51%;
         box-shadow:none;
     -moz-box-shadow:none;

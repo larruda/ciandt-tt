@@ -33,30 +33,39 @@ var app = {
     // The scope of 'this' is the event. In order to call the 'receivedEvent'
     // function, we must explicity call 'app.receivedEvent(...);'
     onDeviceReady: function() {
-        app.initFastClick();
-        app.start();
+        app.main();
     },
 
     initFastClick: function() {
         FastClick.attach(document.body);
     },
 
-    start: function() {
-        if (window.localStorage.remember == undefined) {
-            document.querySelectorAll(".content")[0].style.display = "block";
-        }
+    main: function() {
+        app.initFastClick();
+        app.showForm();
 
-        var check_button = document.getElementById("check-button");
-        check_button.onclick = function() {
-            if (app.isOnline()) {
-                spinnerplugin.show();
+        document.getElementById("check-button").onclick = function() {
+            if (!app.isOnline()) {
+                app.notify("No connection", "Please verify your internet connection.");
             }
-            else {
-                navigator.notification.alert(
-                    "Please verify your internet connection.",
-                    function() { },
-                    "Offline"
-                );
+
+            tt.setUsername(document.getElementById("username").value);
+            tt.setPassword(document.getElementById("password").value);
+            tt.setTime(document.getElementById("time").value);
+
+            if (!app.validFields()) {
+                app.notify("Warning", "Enter both username and password.");
+                return;
+            }
+            spinnerplugin.show();
+
+            try {
+                var response = tt.checkInOrOut();
+                app.notify("Success", response.msg.msg);
+            } catch(error) {
+                app.notify("Error", error.message);
+            } finally {
+                spinnerplugin.hide();
             }
         }
     },
@@ -67,5 +76,33 @@ var app = {
             return false;
         }
         return true;
+    },
+
+    remember: function() {
+        return (window.localStorage.remember != undefined);
+    },
+
+    notify: function(title, message) {
+        navigator.notification.alert(
+            message,
+            function() { },
+            title
+        );
+    },
+
+    validFields: function() {
+        return (tt.username != "" && tt.password != "");
+    },
+
+    showForm: function() {
+      if (!app.remember()) {
+          document.querySelectorAll(".content")[0].style.display = "block";
+      }
+      showClock();
+    },
+
+    showClock: function () {
+        var clockDOM = "";
+        //var time = app.getElementByXpath("//p[@id='relogio']"")
     }
 };
