@@ -47,23 +47,24 @@ var app = {
         document.getElementById("check-button").onclick = function() {
             if (!app.isOnline()) {
                 app.notify("No connection", "Please verify your internet connection.");
+                return;
             }
 
-            tt.setUsername(document.getElementById("username").value);
-            tt.setPassword(document.getElementById("password").value);
-            tt.setTime(document.getElementById("time").value);
+            app.getUserData();
 
             if (!app.validFields()) {
                 app.notify("Warning", "Enter both username and password.");
                 return;
             }
+
             spinnerplugin.show();
 
             try {
-                var response = tt.checkInOrOut();
-                app.notify("Success", response.msg.msg);
-            } catch(error) {
-                app.notify("Error", error.message);
+                tt.checkInOrOut();
+                app.rememberMe(true);
+                app.notify("Success", tt.response.msg.msg);
+            } catch(e) {
+                app.notify("Error", e.message);
             } finally {
                 spinnerplugin.hide();
             }
@@ -78,7 +79,14 @@ var app = {
         return true;
     },
 
-    remember: function() {
+    rememberMe: function(store) {
+        if (store) {
+            window.localStorage.remember = true;
+            window.localStorage.username = tt.username;
+            window.localStorage.password = tt.password;
+            window.localStorage.lastRecord = tt.time;
+        }
+
         return (window.localStorage.remember != undefined);
     },
 
@@ -95,14 +103,37 @@ var app = {
     },
 
     showForm: function() {
-      if (!app.remember()) {
+      if (!app.rememberMe()) {
           document.querySelectorAll(".content")[0].style.display = "block";
       }
-      showClock();
+      app.setTimer();
     },
 
-    showClock: function () {
-        var clockDOM = "";
-        //var time = app.getElementByXpath("//p[@id='relogio']"")
+    setTimer: function () {
+        var currentTime = tt.getCurrentTime();
+
+        var now = new Date(currentTime.timestamp * 1000);
+        var h = now.getHours();
+        var m = now.getMinutes();
+        var s = now.getSeconds();
+        // Add a zero in front of numbers < 10.
+        m = (m < 10) ? m = "0" : m;
+        s = (s < 10) ? s = "0" : s;
+
+        document.getElementById("clock").innerHTML = h + ":" + m + ":" + s;
+
+        loop = setTimeout(function() {
+            app.setTimer()
+        }, 500);
+    },
+
+    getUserData: function() {
+        tt.username =  (window.localStorage.remember) ?
+                        window.localStorage.username : document.getElementById("username").value;
+
+        tt.password =  (window.localStorage.remember) ?
+                        window.localStorage.password : document.getElementById("password").value;
+
+        tt.time = document.getElementById("time").value;
     }
 };

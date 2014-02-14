@@ -22,6 +22,12 @@
     <feature name="SpinnerPlugin">
         <param name="ios-package" value="SpinnerPlugin" />
     </feature>
+    <feature name="Notification">
+        <param name="ios-package" value="CDVNotification" />
+    </feature>
+    <feature name="NetworkStatus">
+        <param name="ios-package" value="CDVConnection" />
+    </feature>
     <name>CI&amp;T TT</name>
     <description>
         Checks a CI&amp;T employee in/out CI&amp;T Time Tracking tool.
@@ -31,10 +37,5 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
-    <feature name="NetworkStatus">
-        <param name="ios-package" value="CDVConnection" />
-    </feature>
-    <feature name="Notification">
-        <param name="ios-package" value="CDVNotification" />
-    </feature>
+    <preference name="Orientation" value="portrait" />
 </widget>

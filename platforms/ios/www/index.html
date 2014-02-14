@@ -34,20 +34,24 @@
                 <h1><span class="light">Time</span> <span class="dark">Tracking</span></h1>
             </div>
             <div class="content">
-
-                <input type="text" id="username" name="username" placeholder="username" />
-
-                <input type="password" id="password" name="password" placeholder="password" />
-                <input type="checkbox" name="remember" />
-                <label for="remember">Remember me, please.</label>
+                <div class="auth">
+                    <p>Please enter your CI&T credentials:</p>
+                    <input type="text" id="username" placeholder="username" />
+                    <input type="password" id="password" placeholder="password" />
+                    <input type="checkbox" id="remember" />
+                    <input type="hidden" id="time" />
+                    <label for="remember">Remember me, please.</label>
+                </div>
             </div>
             <div class="footer">
                 <a class="btn" id="check-button"><span>Check in/out</span></a>
             </div>
         </div>
-        <script type='text/javascript' src="js/fastclick.js"></script>
         <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/tt.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
+        <script type='text/javascript' src="js/fastclick.js"></script>
+        <script type="text/javascript" src="js/statusbarnotification.js"></script>
         <script type="text/javascript">
             app.initialize();
         </script>

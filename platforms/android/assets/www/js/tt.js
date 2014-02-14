@@ -61,7 +61,7 @@ var tt = {
     username: "",
     password: "",
     response: {},
-    time: ""
+    time: "",
 
     checkInOrOut: function() {
         var params_string = '';
@@ -71,39 +71,55 @@ var tt = {
         tt.params.dtTimeEvent = tt.time;
 
         for (var key in tt.params) {
-            params_string += key + '=' + encodeURIComponent(params[key]) + '&';
+            params_string += key + '=' + encodeURIComponent(tt.params[key]) + '&';
         }
 
         params_string = params_string.substr(0, params_string.length - 1);
 
         var request = new XMLHttpRequest();
+        var tt_endpoint = "https://tt.ciandt.com/.net/index.ashx/SaveTimmingEvent";
 
-        request.open("POST", "https://tt.ciandt.com/.net/index.ashx/SaveTimmingEvent", true);
+        request.open("POST", tt_endpoint, true);
         request.responseType = "text";
         request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 
         request.onload = function(e) {
-            var response = eval("(function(){return " + request.response + ";})()");
-
-            if (response.success != true) {
-                throw new Error("ERROR: " + response.msg.msg);
+            if (request.readyState != 4 || request.status != 200) {
+                throw new Error(request.statusText);
             }
-            return response;
-        }
+
+            tt.response = eval("(function(){return " + request.responseText + ";})()");
+
+            if (!tt.response.hasOwnProperty('success')) {
+                throw new Error("Unexpected server response.\nPlease try again later.");
+            }
+
+            if (tt.response.msg.type == 2 || tt.response.success != true) {
+                throw new Error(tt.response.msg.msg);
+            }
+        };
 
         request.send(params_string);
     },
 
-    setUsername: function(username) {
-        tt.username = username;
+    getGMTOffset: function() {
+        var date = new Date();
+        return -date.getTimezoneOffset() / 60;
     },
 
-    setPassword: function(password) {
-        tt.password = password;
-    },
+    getCurrentTime: function() {
+        var ntp_endpoint = "http://monitor.ntp.br/horacerta/s.php";
+        var request = new XMLHttpRequest();
+        var time = {};
 
-    setTime: function(time) {
-      tt.time = time;
+        request.open("GET", ntp_endpoint + "?zone=" + tt.getGMTOffset(), true);
+        request.onload = function(e) {
+            var arr = request.responseText.split("#");
+            time.string = arr[0];
+            time.timestamp = arr[1];
+        };
+        request.send();
+        return time;
     }
 };
 

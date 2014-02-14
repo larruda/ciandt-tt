@@ -33,22 +33,93 @@ var app = {
     // The scope of 'this' is the event. In order to call the 'receivedEvent'
     // function, we must explicity call 'app.receivedEvent(...);'
     onDeviceReady: function() {
-        app.initFastClick();
-        app.start();
+        app.main();
     },
 
     initFastClick: function() {
         FastClick.attach(document.body);
     },
 
-    start: function() {
-        if (window.localStorage.remember == undefined) {
-            document.querySelectorAll(".content")[0].style.display = "block";
+    main: function() {
+        app.initFastClick();
+        app.showForm();
+
+        document.getElementById("check-button").onclick = function() {
+            if (!app.isOnline()) {
+                app.notify("No connection", "Please verify your internet connection.");
+                return;
+            }
+
+            app.getUserData();
+
+            if (!app.validFields()) {
+                app.notify("Warning", "Enter both username and password.");
+                return;
+            }
+            spinnerplugin.show();
+
+            try {
+                tt.checkInOrOut();
+                app.rememberMe(true);
+                app.notify("Success", tt.response);
+            } catch(e) {
+                app.notify("Error", e.message);
+            } finally {
+                spinnerplugin.hide();
+            }
+        }
+    },
+
+    isOnline: function() {
+        if (navigator.connection.type == Connection.UNKNOWN ||
+            navigator.connection.type == Connection.NONE) {
+            return false;
+        }
+        return true;
+    },
+
+    rememberMe: function(store) {
+        if (store) {
+            window.localStorage.remember = true;
+            window.localStorage.username = tt.username;
+            window.localStorage.password = tt.password;
+            window.localStorage.lastRecord = tt.time;
         }
 
-        var check_button = document.getElementById("check-button");
-        check_button.onclick = function() {
-            spinnerplugin.show();
-        }
+        return (window.localStorage.remember != undefined);
+    },
+
+    notify: function(title, message) {
+        navigator.notification.alert(
+            message,
+            function() { },
+            title
+        );
+    },
+
+    validFields: function() {
+        return (tt.username != "" && tt.password != "");
+    },
+
+    showForm: function() {
+      if (!app.rememberMe()) {
+          document.querySelectorAll(".content")[0].style.display = "block";
+      }
+      app.setTimer();
+    },
+
+    setTimer: function () {
+        var clockDOM = "";
+        //var time = app.getElementByXpath("//p[@id='relogio']"")
+    },
+
+    getUserData: function() {
+        tt.username =  (window.localStorage.remember) ?
+                        window.localStorage.username : document.getElementById("username").value;
+
+        tt.password =  (window.localStorage.remember) ?
+                        window.localStorage.password : document.getElementById("password").value;
+
+        tt.time = document.getElementById("time").value;
     }
 };
