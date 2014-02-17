@@ -47,8 +47,9 @@ html, body {
     width:100%;
 }
 
-.watch-logo {
-
+@font-face {
+    font-family: 'digi';
+    src: url('../font/DS-DIGII.TTF');
 }
 
 /* Portrait layout (default) */
@@ -189,12 +190,12 @@ h1 {
 
 .content {
     padding-top: 20px;
-    display: none;
 }
 
-.content .auth {
+#auth {
     width: 235px;
     margin: 0 auto;
+    display: none;
 }
 
 input[type=text],
@@ -222,4 +223,8 @@ input[type=email]:hover,
 input[type=password]:hover {
     background: bottom left linear-gradient(#0099cc, #0099cc) no-repeat, bottom center linear-gradient(#0099cc, #0099cc) repeat-x, bottom right linear-gradient(#0099cc, #0099cc) no-repeat;
     background-size: 1px 6px, 1px 1px, 1px 6px;
+}
+
+#time {
+    font-family: 'digi';
 }

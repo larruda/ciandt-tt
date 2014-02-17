@@ -58,8 +58,6 @@ var tt = {
         language:  0
     },
 
-    username: "",
-    password: "",
     response: {},
     time: "",
 
@@ -95,7 +93,7 @@ var tt = {
             }
 
             if (tt.response.msg.type == 2 || tt.response.success != true) {
-                throw new Error(tt.response.msg.msg);
+                throw new Error(tt.response);
             }
         };
 
@@ -113,10 +111,14 @@ var tt = {
         var time = {};
 
         request.open("GET", ntp_endpoint + "?zone=" + tt.getGMTOffset(), true);
+        request.responseType = "text";
         request.onload = function(e) {
+            if (request.readyState != 4 || request.status != 200) {
+                throw new Error(request.statusText);
+            }
             var arr = request.responseText.split("#");
-            time.string = arr[0];
-            time.timestamp = arr[1];
+            time.string = arr[0].trim();
+            time.timestamp = arr[1].trim();
         };
         request.send();
         return time;

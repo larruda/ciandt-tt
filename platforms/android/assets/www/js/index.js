@@ -17,6 +17,11 @@
  * under the License.
  */
 var app = {
+
+    username: "",
+    password: "",
+    remember: false,
+
     // Application Constructor
     initialize: function() {
         this.bindEvents();
@@ -42,6 +47,7 @@ var app = {
 
     main: function() {
         app.initFastClick();
+        app.bindScreenEvents();
         app.showForm();
 
         document.getElementById("check-button").onclick = function() {
@@ -61,8 +67,8 @@ var app = {
 
             try {
                 tt.checkInOrOut();
-                app.rememberMe(true);
-                app.notify("Success", tt.response.msg.msg);
+                app.rememberMe(document.getElementById("remember").checked);
+                app.notify("Server Response", tt.response.msg.msg);
             } catch(e) {
                 app.notify("Error", e.message);
             } finally {
@@ -82,12 +88,18 @@ var app = {
     rememberMe: function(store) {
         if (store) {
             window.localStorage.remember = true;
-            window.localStorage.username = tt.username;
-            window.localStorage.password = tt.password;
+            window.localStorage.username = app.username;
+            window.localStorage.password = app.password;
             window.localStorage.lastRecord = tt.time;
         }
+        return JSON.parse(window.localStorage.remember);        
+    },
 
-        return (window.localStorage.remember != undefined);
+    forget: function() {
+        window.localStorage.remember = false;
+        window.localStorage.username = null;
+        window.localStorage.password = null;
+        window.localStorage.lastRecord = null;
     },
 
     notify: function(title, message) {
@@ -99,14 +111,15 @@ var app = {
     },
 
     validFields: function() {
-        return (tt.username != "" && tt.password != "");
+        return (app.username != "" && app.password != "");
     },
 
     showForm: function() {
-      if (!app.rememberMe()) {
-          document.querySelectorAll(".content")[0].style.display = "block";
-      }
-      app.setTimer();
+        if (!app.rememberMe()) {
+            app.el("auth").style.display = "block";
+            app.el("reset").style.display = "none";
+        }
+        app.setTimer();
     },
 
     setTimer: function () {
@@ -120,20 +133,31 @@ var app = {
         m = (m < 10) ? m = "0" : m;
         s = (s < 10) ? s = "0" : s;
 
-        document.getElementById("clock").innerHTML = h + ":" + m + ":" + s;
+        document.getElementById("time").innerHTML = h + ":" + m + ":" + s;
 
-        loop = setTimeout(function() {
-            app.setTimer()
-        }, 500);
+        //loop = setTimeout(function() {
+        //    app.setTimer()
+        //}, 500);
     },
 
     getUserData: function() {
-        tt.username =  (window.localStorage.remember) ?
+        app.username =  (app.rememberMe()) ?
                         window.localStorage.username : document.getElementById("username").value;
 
-        tt.password =  (window.localStorage.remember) ?
+        app.password =  (app.rememberMe()) ?
                         window.localStorage.password : document.getElementById("password").value;
 
         tt.time = document.getElementById("time").value;
+    },
+
+    bindScreenEvents: function() {
+        app.el("reset").onclick = function() {
+            app.el("auth").style.display = "block";
+            app.forget();
+        };
+    },
+
+    el: function(id) {
+        return document.getElementById(id);
     }
 };

@@ -34,15 +34,15 @@
                 <h1><span class="light">Time</span> <span class="dark">Tracking</span></h1>
             </div>
             <div class="content">
-                <div class="auth">
+                <div id="auth">
                     <p>Please enter your CI&T credentials:</p>
                     <input type="text" id="username" placeholder="username" />
                     <input type="password" id="password" placeholder="password" />
                     <input type="checkbox" id="remember" />
-                    <input type="hidden" id="time" />
                     <label for="remember">Remember me, please.</label>
                 </div>
-                <time id="clock"></time>
+                <time id="time"></time>
+                <a href="javascript:void(0);" id="reset">Reset user</a>
             </div>
             <div class="footer">
                 <a class="btn" id="check-button"><span>Check in/out</span></a>
