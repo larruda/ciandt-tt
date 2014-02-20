@@ -50,31 +50,42 @@ var app = {
         app.bindScreenEvents();
         app.showForm();
 
-        document.getElementById("check-button").onclick = function() {
-            if (!app.isOnline()) {
-                app.notify("No connection", "Please verify your internet connection.");
+        app.el("check-button").onclick = function() {
+            if (!app.validate()) {
                 return;
             }
-
-            app.getUserData();
-
-            if (!app.validFields()) {
-                app.notify("Warning", "Enter both username and password.");
-                return;
-            }
-
+            
             spinnerplugin.show();
 
-            try {
-                tt.checkInOrOut();
-                app.rememberMe(document.getElementById("remember").checked);
-                app.notify("Server Response", tt.response.msg.msg);
-            } catch(e) {
-                app.notify("Error", e.message);
-            } finally {
-                spinnerplugin.hide();
-            }
+            app.rememberMe(app.el("remember").checked);
+
+            tt.checkInOrOut();
+            
+            app.notify("Server Response", tt.getReponseMessage());
+            
+            spinnerplugin.hide();
         }
+    },
+
+    validate: function() {
+        if (!app.isOnline()) {
+            app.notify("No connection", "Please verify your internet connection.");
+            return;
+        }
+
+        app.getUserData();
+
+        if (!app.validFields()) {
+            app.notify("Warning", "Enter both username and password.");
+            return;
+        }
+
+        if (!tt.time) {
+            app.notify("Warning", "Please wait for the clock to sync with the network time server.");
+            return;
+        }
+
+        return true;
     },
 
     isOnline: function() {
@@ -123,9 +134,15 @@ var app = {
     },
 
     setTimer: function () {
-        var currentTime = tt.getCurrentTime();
+        try {
+            tt.getCurrentTime();
+        } catch(e) {
+            app.notify("Error", e.message);
+        }
+    },
 
-        var now = new Date(currentTime.timestamp * 1000);
+    showTimer: function(time) {
+        var now = new Date(time.timestamp * 1000);
         var h = now.getHours();
         var m = now.getMinutes();
         var s = now.getSeconds();
@@ -134,10 +151,6 @@ var app = {
         s = (s < 10) ? s = "0" : s;
 
         document.getElementById("time").innerHTML = h + ":" + m + ":" + s;
-
-        //loop = setTimeout(function() {
-        //    app.setTimer()
-        //}, 500);
     },
 
     getUserData: function() {
