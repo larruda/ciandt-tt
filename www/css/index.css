@@ -59,25 +59,15 @@ html, body {
     background: transparent url('../img/bgbody.jpg') repeat 0 0;
 }
 
-/* Landscape layout (with min-width) */
-@media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
-    .app {
-        background-position:left center;
-        padding:75px 0px 75px 170px;  /* padding-top + padding-bottom + text area = image height */
-        margin:-90px 0px 0px -198px;  /* offset vertical: half of image height */
-                                      /* offset horizontal: half of image width and text area width */
-    }
-}
-
 h1 {
-    font-size:34px;
+    font-size: 8vw;
     font-weight:normal;
     margin:0px;
     overflow:visible;
     padding:0px;
     text-align:center;
     width: 100%;
-    line-height: 74px;
+    line-height: 14vw;
     background-color: #FFF;
     margin-top: -3px;
     border-bottom: 1px solid #41cfd7;
@@ -130,35 +120,34 @@ h1 {
   width: 100%;
   position: absolute;
   bottom: 0;
-  height: 160px;
+  height: 25%;
 }
 
 .btn {
-  -webkit-appearance: none; -moz-appearance: none;
- display: block;
- margin: 0 auto;
- font-size: 1em; line-height: 2.5em;
- color: #707070;
- font-weight: bold;
- height: 2.5em; width: 100%;
- background: #fdfdfd; background: -moz-linear-gradient(top, #fdfdfd 0%, #bebebe 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fdfdfd), color-stop(100%,#bebebe)); background: -webkit-linear-gradient(top, #fdfdfd 0%,#bebebe 100%); background: -o-linear-gradient(top, #fdfdfd 0%,#bebebe 100%); background: -ms-linear-gradient(top, #fdfdfd 0%,#bebebe 100%); background: linear-gradient(to bottom, #fdfdfd 0%,#bebebe 100%);
- border: 1px solid #bbb;
- -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px;
- width: 50%;
- text-align: center;
- line-height: 50px;
- margin-top: -50px;
- padding: 25px;
- position: relative;
- top: 50%;
- font-size: 20px;
- box-shadow: 0px 3px 5px #000;
--moz-box-shadow: 0px 3px 5px #000;
--webkit-box-shadow: 0px 3px 5px #000;
+      -webkit-appearance: none; -moz-appearance: none;
+     display: block;
+     margin: 0 auto;
+     line-height: 10vw;
+     color: #707070;
+     font-weight: bold;
+     height: 25%; 
+     width: 100%;
+     background: #fdfdfd; background: -moz-linear-gradient(top, #fdfdfd 0%, #bebebe 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fdfdfd), color-stop(100%,#bebebe)); background: -webkit-linear-gradient(top, #fdfdfd 0%,#bebebe 100%); background: -o-linear-gradient(top, #fdfdfd 0%,#bebebe 100%); background: -ms-linear-gradient(top, #fdfdfd 0%,#bebebe 100%); background: linear-gradient(to bottom, #fdfdfd 0%,#bebebe 100%);
+     border: 1px solid #bbb;
+     -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px;
+     width: 50%;
+     text-align: center;
+     margin-top: -50px;
+     padding: 25px;
+     position: relative;
+     top: 50%;
+     font-size: 5vw;
+     box-shadow: 0px 3px 5px #000;
+    -moz-box-shadow: 0px 3px 5px #000;
+    -webkit-box-shadow: 0px 3px 5px #000;
 }
 
 .btn span {
-    font-size: 20px;
     text-transform: uppercase;
     text-shadow: 0px 1px 0px #FFF;
 }
@@ -193,38 +182,48 @@ h1 {
 }
 
 #auth {
-    width: 235px;
+    width: 65%;
     margin: 0 auto;
     display: none;
 }
 
 input[type=text],
-input[type=url],
-input[type=email],
 input[type=password] {
   /* You can set width to whatever you like */
-    width: 200px;
+    width: 90%;
     font-family: "Roboto", "Droid Sans", sans-serif;
     font-size: 14px;
     margin: 0;
-    padding: 8px 8px 6px 8px;
+    padding: 4px 8px 6px 8px;
     position: relative;
     display: block;
     outline: none;
     border: none;
     background: bottom left linear-gradient(#a9a9a9, #a9a9a9) no-repeat, bottom center linear-gradient(#a9a9a9, #a9a9a9) repeat-x, bottom right linear-gradient(#a9a9a9, #a9a9a9) no-repeat;
     background-size: 1px 6px, 1px 1px, 1px 6px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 input[type=text]:hover,
-input[type=url]:hover,
-input[type=email]:hover,
 input[type=password]:hover {
     background: bottom left linear-gradient(#0099cc, #0099cc) no-repeat, bottom center linear-gradient(#0099cc, #0099cc) repeat-x, bottom right linear-gradient(#0099cc, #0099cc) no-repeat;
     background-size: 1px 6px, 1px 1px, 1px 6px;
 }
 
-#time {
+.timer {
     font-family: 'digi';
+    width: 100%;
+    background: white;
+    font-size: 12vw;
+    color: #707070;
+    text-align: center;
+    border-top: 5px solid #E54B6B;
+    background-image: linear-gradient(#f0f0f0, white);
+    position: absolute;
+    bottom: 25%;
 }
+
+#time {
+    line-height: 21vw;
+}
+

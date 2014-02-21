@@ -134,11 +134,7 @@ var app = {
     },
 
     setTimer: function () {
-        try {
-            tt.getCurrentTime();
-        } catch(e) {
-            app.notify("Error", e.message);
-        }
+        tt.getNetworkTime();
     },
 
     showTimer: function(time) {
@@ -147,20 +143,20 @@ var app = {
         var m = now.getMinutes();
         var s = now.getSeconds();
         // Add a zero in front of numbers < 10.
-        m = (m < 10) ? m = "0" : m;
-        s = (s < 10) ? s = "0" : s;
+        h = (h < 10) ? "0" + h : h;
+        m = (m < 10) ? "0" + m : m;
+        s = (s < 10) ? "0" + s : s;
 
-        document.getElementById("time").innerHTML = h + ":" + m + ":" + s;
+        app.el("time").innerHTML = h + ":" + m + ":" + s;
     },
 
     getUserData: function() {
         app.username =  (app.rememberMe()) ?
-                        window.localStorage.username : document.getElementById("username").value;
+                        window.localStorage.username : app.el("username").value;
 
         app.password =  (app.rememberMe()) ?
-                        window.localStorage.password : document.getElementById("password").value;
+                        window.localStorage.password : app.el("password").value;
 
-        tt.time = document.getElementById("time").value;
     },
 
     bindScreenEvents: function() {

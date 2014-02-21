@@ -66,9 +66,9 @@ var tt = {
     checkInOrOut: function() {
         var params_string = '';
 
-        tt.params.userName = tt.username;
-        tt.params.password = tt.password;
-        tt.params.dttimeEvent = tt.time;
+        tt.params.userName = app.username;
+        tt.params.password = app.password;
+        tt.params.dttimeEvent = tt.getCurrentTime();
 
         for (var key in tt.params) {
             params_string += key + '=' + encodeURIComponent(tt.params[key]) + '&';
@@ -100,7 +100,7 @@ var tt = {
         return -date.getTimezoneOffset() / 60;
     },
 
-    getCurrentTime: function() {
+    getNetworkTime: function() {
         var ntp_endpoint = "http://monitor.ntp.br/horacerta/s.php";
         var request = new XMLHttpRequest();
 
@@ -122,6 +122,26 @@ var tt = {
         };
 
         request.send();
+    },
+
+    getCurrentTime: function() {
+        var now = new Date(tt.time.timestamp * 1000);
+
+        var d = now.getDate();
+        var M = now.getMonth() + 1;
+        var y = now.getFullYear();
+        var h = now.getHours();
+        var m = now.getMinutes();
+        var s = now.getSeconds();
+        // Add a zero in front of numbers < 10.
+        d = (d < 10) ? "0" + d : d;
+        M = (M < 10) ? "0" + M : M;
+        h = (h < 10) ? "0" + h : h;
+        m = (m < 10) ? "0" + m : m;
+        s = (s < 10) ? "0" + s : s;
+
+        // 04/02/2014 21:34:34
+        return d + "/" + M + "/" + y + " " + h + ":" + m + ":" + s;
     },
 
     getReponseMessage: function() {
