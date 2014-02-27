@@ -29,10 +29,10 @@
     <body ontouchstart="" onmouseover="">
         <div id="app-container">
             <div class="header">
-                <img class="ciandt-logo" src="img/logo-ciandt.png" />
-                <img class="watch-logo" src="img/imgHomePortal.png" />
-                <h1><span class="light">Time</span> <span class="dark">Tracking</span></h1>
+                <div class="symbol"></div>
             </div>
+            <h1><span class="dark">Time</span> <span class="light">Tracking</span></h1>
+
             <div class="content">
                 <div id="auth">
                     <p>Please enter your CI&T credentials:</p>
@@ -41,20 +41,29 @@
                     <input type="checkbox" id="remember" />
                     <label for="remember">Remember me, please.</label>
                 </div>
+                <div id="user-data">
+                    <p>Welcome back,</p>
+                    <strong id="full-name"></strong>
+                    <p>Your last check in/out here was on</p>
+                    <strong id="last-record"></strong>
+                    <br />
+                    <a href="javascript:void(0);" id="forget">Forget me!</a>
+                </div>
                 <div class="timer">
                     <time id="time">Loading...</time>
                 </div>
-                <a href="javascript:void(0);" id="reset">Reset user</a>
             </div>
             <div class="footer">
                 <a class="btn" id="check-button"><span>Check in/out</span></a>
             </div>
         </div>
         <script type="text/javascript" src="cordova.js"></script>
+        <script type='text/javascript' src="js/fastclick.js"></script>
+        <script type="text/javascript" src="js/prefixfree.min.js"></script>
+        <script type="text/javascript" src="js/prefixfree.viewport-units.js"></script>
         <script type="text/javascript" src="js/tt.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
-        <script type='text/javascript' src="js/fastclick.js"></script>
-        <script type="text/javascript" src="js/statusbarnotification.js"></script>
+        <script type="text/javascript" src="js/aes.js"></script>
         <script type="text/javascript">
             app.initialize();
         </script>

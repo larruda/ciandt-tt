@@ -1,4 +1,4 @@
-cordova.define("it.mobimentum.phonegapspinnerplugin.SpinnerPlugin", function(require, exports, module) { // Spinner plugin
+cordova.define("it.mobimentum.phonegapspinnerplugin.SpinnerPlugin", function(require, exports, module) {// Spinner plugin
 var spinnerplugin = {
     show: function(args, successCallback, errorCallback) {
 	
@@ -25,5 +25,4 @@ var spinnerplugin = {
 
 // Exports
 module.exports = spinnerplugin;
-
 });

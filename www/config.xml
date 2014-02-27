@@ -1,1 +1,13 @@
-../config.xml
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.ciandt.tt" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>CI&T TT</name>
+    <description>
+        Checks a CI&T employee in/out CI&T Time Tracking tool.
+    </description>
+    <author email="lucas@ciandt.com" href="https://people.cit.com.br/profile/lucas">
+        Lucas Arruda
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <preference name="Orientation" value="portrait" />
+</widget>

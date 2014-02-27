@@ -56,7 +56,31 @@ html, body {
 .header {               /* text area height */
     width:100%;                   /* text area width */                           /* offset horizontal: half of text area width */
     text-align: center;
-    background: transparent url('../img/bgbody.jpg') repeat 0 0;
+    background: url('../img/imgHomePortal.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-x: right; 
+    height: 20%;
+    overflow: hidden;
+}
+
+.header .symbol {
+    background-image: url("../img/simbolo-CI&T-B&W-CMYK-white.png");
+    width: 64%;
+    height: 105%;
+    background-size: cover;
+    opacity: .7;
+    margin-top: -2%;
+    margin-left: -2%;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
 }
 
 h1 {
@@ -67,30 +91,15 @@ h1 {
     padding:0px;
     text-align:center;
     width: 100%;
-    line-height: 14vw;
+    line-height: 9vh;
     background-color: #FFF;
-    margin-top: -3px;
     border-bottom: 1px solid #41cfd7;
     border-top: 2px solid #41cfd7;
 }
 
-.event {
-    border-radius:4px;
-    -webkit-border-radius:4px;
-    color:#FFFFFF;
-    font-size:12px;
-    margin:0px 30px;
-    padding:2px 0px;
-}
-
-.event.listening {
-    background-color:#333333;
-    display:block;
-}
-
-.event.received {
-    background-color:#4B946A;
-    display:none;
+p,
+label {
+    font-size: 3vw;
 }
 
 @keyframes fade {
@@ -161,11 +170,11 @@ h1 {
 }
 
 .light {
-    color: #a4f1f6;
+    color: #41cfd7;
 }
 
 .dark {
-    color: #41cfd7;
+    color: #47BCC4;
 }
 
 #app-container {
@@ -178,13 +187,13 @@ h1 {
 }
 
 .content {
-    padding-top: 20px;
+    padding-top: 3%;
 }
 
 #auth {
     width: 65%;
     margin: 0 auto;
-    display: none;
+    display: block;
 }
 
 input[type=text],
@@ -192,7 +201,7 @@ input[type=password] {
   /* You can set width to whatever you like */
     width: 90%;
     font-family: "Roboto", "Droid Sans", sans-serif;
-    font-size: 14px;
+    font-size: 3.5vw;
     margin: 0;
     padding: 4px 8px 6px 8px;
     position: relative;
@@ -217,7 +226,7 @@ input[type=password]:hover {
     font-size: 12vw;
     color: #707070;
     text-align: center;
-    border-top: 5px solid #E54B6B;
+    border-top: 5px solid #DF5462;
     background-image: linear-gradient(#f0f0f0, white);
     position: absolute;
     bottom: 25%;
@@ -227,3 +236,29 @@ input[type=password]:hover {
     line-height: 21vw;
 }
 
+#user-data {
+    width: 65%;
+    margin: 0 auto;
+    display: none;
+    text-align: center;
+}
+
+#user-data strong {
+    color: #333;
+    margin-bottom: 10%;
+    display: inline-block;
+    font-size: 4vw;
+}
+
+#last-record {
+    font-size: 6vw;
+    margin-bottom: 10%;
+}
+
+#forget {
+    border-top: 1px solid #CF1629;
+    border-bottom: 1px solid #CF1629;
+    color: #CF1629;
+    font-size: 3vw;
+    text-decoration: none;
+}

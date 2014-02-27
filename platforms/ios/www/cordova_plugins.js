@@ -28,14 +28,20 @@ module.exports = [
         "merges": [
             "navigator.notification"
         ]
+    },
+    {
+        "file": "plugins/uk.co.whiteoctober.cordova.AppVersion/www/AppVersionPlugin.js",
+        "id": "uk.co.whiteoctober.cordova.AppVersion.AppVersionPlugin",
+        "clobbers": [
+            "cordova.getAppVersion"
+        ]
+    },
+    {
+        "file": "plugins/org.apache.cordova.device/www/device.js",
+        "id": "org.apache.cordova.device.device",
+        "clobbers": [
+            "device"
+        ]
     }
-];
-module.exports.metadata = 
-// TOP OF METADATA
-{
-    "it.mobimentum.phonegapspinnerplugin": "1.0.0",
-    "org.apache.cordova.network-information": "0.2.7",
-    "org.apache.cordova.dialogs": "0.2.6"
-}
-// BOTTOM OF METADATA
+]
 });

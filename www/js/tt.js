@@ -63,6 +63,9 @@ var tt = {
     time: {},
     thread: null,
 
+    CHECK_RECORDED : 1,
+    INVALID_CREDENTIALS: 2,
+
     checkInOrOut: function() {
         var params_string = '';
 
@@ -93,6 +96,17 @@ var tt = {
         };
 
         tt.request.send(params_string);
+        tt.processResponse();
+    },
+
+    processResponse: function() {
+        if (!tt.checkRecorded()) {
+            app.forget();
+            return;
+        }
+
+        tt.time.lastRecord = tt.params.dttimeEvent;
+        app.rememberMe(app.el("remember").checked);
     },
 
     getGMTOffset: function() {
@@ -122,6 +136,7 @@ var tt = {
         };
 
         request.send();
+        
     },
 
     getCurrentTime: function() {
@@ -148,9 +163,14 @@ var tt = {
         if (tt.response == null || !tt.response.hasOwnProperty('success')) {
             return "Unexpected server response.\nPlease try again later.";
         }
-        if (tt.response.msg.type == 2 || tt.response.success != true) {
-            return tt.response.msg.msg;
-        }
+        //if (tt.response.msg.type == tt.INVALID_CREDENTIALS || tt.response.success != true) {
+        //    return tt.response.msg.msg;
+        //}
+        return tt.response.msg.msg;
+    },
+
+    checkRecorded: function() {
+        return (tt.response.hasOwnProperty('success') && tt.response.msg.type == tt.CHECK_RECORDED);
     }
 };
 

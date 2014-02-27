@@ -38,4 +38,10 @@
     <content src="index.html" />
     <access origin="*" />
     <preference name="Orientation" value="portrait" />
+    <feature name="AppVersion">
+        <param name="ios-package" value="AppVersion" />
+    </feature>
+    <feature name="Device">
+        <param name="ios-package" value="CDVDevice" />
+    </feature>
 </widget>

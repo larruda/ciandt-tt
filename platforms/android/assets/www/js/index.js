@@ -20,7 +20,6 @@ var app = {
 
     username: "",
     password: "",
-    remember: false,
 
     // Application Constructor
     initialize: function() {
@@ -49,22 +48,6 @@ var app = {
         app.initFastClick();
         app.bindScreenEvents();
         app.showForm();
-
-        app.el("check-button").onclick = function() {
-            if (!app.validate()) {
-                return;
-            }
-            
-            spinnerplugin.show();
-
-            app.rememberMe(app.el("remember").checked);
-
-            tt.checkInOrOut();
-            
-            app.notify("Server Response", tt.getReponseMessage());
-            
-            spinnerplugin.hide();
-        }
     },
 
     validate: function() {
@@ -101,9 +84,20 @@ var app = {
             window.localStorage.remember = true;
             window.localStorage.username = app.username;
             window.localStorage.password = app.password;
-            window.localStorage.lastRecord = tt.time;
+            window.localStorage.lastRecord = tt.time.lastRecord;
+            window.localStorage.fullName = tt.response.msg.msg.match("MARCACAO EFETUADA (.*)")[1];
+
+            app.el("auth").style.display = "none";
+            app.el("user-data").style.display = "block";
+
+            app.el("full-name").innerHTML = app.getUserFullName();
+            app.el("last-record").innerHTML = app.getLastRecord();
         }
-        return JSON.parse(window.localStorage.remember);        
+        
+        if (window.localStorage.remember == undefined) {
+            window.localStorage.remember = false;
+        }
+        return JSON.parse(window.localStorage.remember);
     },
 
     forget: function() {
@@ -111,6 +105,11 @@ var app = {
         window.localStorage.username = null;
         window.localStorage.password = null;
         window.localStorage.lastRecord = null;
+        window.localStorage.fullName = null;
+
+        app.el("auth").style.display = "block";
+        app.el("user-data").style.display = "none";
+        app.el("remember").checked = false;
     },
 
     notify: function(title, message) {
@@ -128,8 +127,14 @@ var app = {
     showForm: function() {
         if (!app.rememberMe()) {
             app.el("auth").style.display = "block";
-            app.el("reset").style.display = "none";
+            app.el("user-data").style.display = "none";
         }
+        else {
+            app.el("full-name").innerHTML = app.getUserFullName();
+            app.el("last-record").innerHTML = app.getLastRecord();
+        }
+
+        app.el("remember").checked = (app.rememberMe()) ? "checked" : false;
         app.setTimer();
     },
 
@@ -159,11 +164,31 @@ var app = {
 
     },
 
+    getUserFullName: function() {
+        return window.localStorage.fullName;
+    },
+
+    getLastRecord: function() {
+        return window.localStorage.lastRecord;
+    },
+
     bindScreenEvents: function() {
-        app.el("reset").onclick = function() {
+        app.el("forget").onclick = function() {
             app.el("auth").style.display = "block";
             app.forget();
         };
+
+        app.el("check-button").onclick = function() {
+            if (!app.validate()) {
+                return;
+            }
+            
+            spinnerplugin.show();
+            tt.checkInOrOut();
+            spinnerplugin.hide();
+
+            app.notify("Server Response", tt.getReponseMessage());
+        }
     },
 
     el: function(id) {

@@ -27,6 +27,7 @@
 /Users/lucasarruda/Sites/ciandt_tt/platforms/android/assets/www/img/bgbody.jpg \
 /Users/lucasarruda/Sites/ciandt_tt/platforms/android/assets/www/img/imgHomePortal.png \
 /Users/lucasarruda/Sites/ciandt_tt/platforms/android/assets/www/img/logo-ciandt.png \
+/Users/lucasarruda/Sites/ciandt_tt/platforms/android/assets/www/img/simbolo-CI&T-B&W-CMYK-white.png \
 /Users/lucasarruda/Sites/ciandt_tt/platforms/android/assets/www/js/fastclick.js \
 /Users/lucasarruda/Sites/ciandt_tt/platforms/android/assets/www/js/index.js \
 /Users/lucasarruda/Sites/ciandt_tt/platforms/android/assets/www/js/statusbarnotification.js \
@@ -45,5 +46,9 @@
 /Users/lucasarruda/Sites/ciandt_tt/platforms/android/assets/www/plugins/org.apache.cordova.network-information/www/network.js \
 /Users/lucasarruda/Sites/ciandt_tt/platforms/android/assets/www/res/icons \
 /Users/lucasarruda/Sites/ciandt_tt/platforms/android/assets/www/res/icons/android \
+/Users/lucasarruda/Sites/ciandt_tt/platforms/android/assets/www/res/icons/android/icon-144-xxhdpi.png \
+/Users/lucasarruda/Sites/ciandt_tt/platforms/android/assets/www/res/icons/android/icon-192-xxxhdpi.png \
+/Users/lucasarruda/Sites/ciandt_tt/platforms/android/assets/www/res/icons/android/icon-48-mdpi.png \
 /Users/lucasarruda/Sites/ciandt_tt/platforms/android/assets/www/res/icons/android/icon-72-hdpi.png \
+/Users/lucasarruda/Sites/ciandt_tt/platforms/android/assets/www/res/icons/android/icon-96-xhdpi.png \
 /Users/lucasarruda/Sites/ciandt_tt/platforms/android/bin/AndroidManifest.xml \
