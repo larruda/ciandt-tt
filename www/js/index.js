@@ -46,11 +46,17 @@ var app = {
 
     onPause: function() {
         clearInterval(tt.thread);
+        tt.time = false;
         app.el("time").innerHTML = "Loading...";
     },
 
     onResume: function() {
-        app.setTimer();
+        if (!app.isOnline()) {   
+            app.notify("No connection", "Please turn on your internet connection and restart the app.");
+            app.testConnection();
+            return;
+        }
+        app.setTimer();      
     },
 
     initFastClick: function() {
@@ -61,7 +67,6 @@ var app = {
         app.initFastClick();
         app.bindScreenEvents();
         app.showForm();
-        app.generateUniqueHash();
 
         cordova.getAppVersion(function (version) {
             app.version = version;
@@ -70,7 +75,8 @@ var app = {
 
     validate: function() {
         if (!app.isOnline()) {
-            app.notify("No connection", "Please verify your internet connection.");
+            app.notify("No connection", "Please turn on your internet connection and restart the app.");
+            app.testConnection();
             return;
         }
 
@@ -97,11 +103,15 @@ var app = {
         return true;
     },
 
+    testConnection: function() {
+
+    },
+
     rememberMe: function(store) {
         if (store) {
             window.localStorage.remember = true;
-            window.localStorage.username = app.username;
-            window.localStorage.password = app.password;
+            window.localStorage.username = app.encrypt(app.username);
+            window.localStorage.password = app.encrypt(app.password);
             window.localStorage.lastRecord = tt.time.lastRecord;
             window.localStorage.fullName = tt.response.msg.msg.match("MARCACAO EFETUADA (.*)")[1];
 
@@ -175,10 +185,10 @@ var app = {
 
     getUserData: function() {
         app.username =  (app.rememberMe()) ?
-                        window.localStorage.username : app.el("username").value;
+                        window.localStorage.username : app.encrypt(app.el("username").value);
 
         app.password =  (app.rememberMe()) ?
-                        window.localStorage.password : app.el("password").value;
+                        window.localStorage.password : app.encrypt(app.el("password").value);
 
     },
 
@@ -221,5 +231,24 @@ var app = {
     decrypt: function(value) {  
         var decrypted = CryptoJS.AES.decrypt(value, device.uuid);
         return decrypted.toString(CryptoJS.enc.Utf8);
+    },
+
+    versionCompare: function(left, right) {
+        if (typeof left + typeof right != 'stringstring')
+            return false;
+        
+        var a = left.split('.')
+        ,   b = right.split('.')
+        ,   i = 0, len = Math.max(a.length, b.length);
+            
+        for (; i < len; i++) {
+            if ((a[i] && !b[i] && parseInt(a[i]) > 0) || (parseInt(a[i]) > parseInt(b[i]))) {
+                return 1;
+            } else if ((b[i] && !a[i] && parseInt(b[i]) > 0) || (parseInt(a[i]) < parseInt(b[i]))) {
+                return -1;
+            }
+        }
+        
+        return 0;
     }
 };

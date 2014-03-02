@@ -193,7 +193,7 @@ label {
 #auth {
     width: 65%;
     margin: 0 auto;
-    display: block;
+    display: none;
 }
 
 input[type=text],
@@ -239,7 +239,7 @@ input[type=password]:hover {
 #user-data {
     width: 65%;
     margin: 0 auto;
-    display: none;
+    display: block;
     text-align: center;
 }
 

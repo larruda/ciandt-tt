@@ -69,8 +69,8 @@ var tt = {
     checkInOrOut: function() {
         var params_string = '';
 
-        tt.params.userName = app.username;
-        tt.params.password = app.password;
+        tt.params.userName = app.decrypt(app.username);
+        tt.params.password = app.decrypt(app.password);
         tt.params.dttimeEvent = tt.getCurrentTime();
 
         for (var key in tt.params) {
@@ -78,6 +78,8 @@ var tt = {
         }
 
         params_string = params_string.substr(0, params_string.length - 1);
+        tt.params.userName = "";
+        tt.params.password = "";
 
         tt.request = new XMLHttpRequest();
         var tt_endpoint = "https://tt.ciandt.com/.net/index.ashx/SaveTimmingEvent";
@@ -96,6 +98,7 @@ var tt = {
         };
 
         tt.request.send(params_string);
+        params_string = "";
         tt.processResponse();
     },
 
