@@ -20,7 +20,6 @@ var app = {
 
     username: "",
     password: "",
-    hash: "",
     version: "",
 
     // Application Constructor
@@ -45,12 +44,12 @@ var app = {
     },
 
     onPause: function() {
-        clearInterval(tt.thread);
-        tt.time = false;
-        app.el("time").innerHTML = "Loading...";
+        tt.stopTimer();
     },
 
     onResume: function() {
+        app.el("time").innerHTML = "Loading...";
+
         if (!app.isOnline()) {   
             app.notify("No connection", "Please turn on your internet connection and restart the app.");
             app.testConnection();
@@ -87,7 +86,7 @@ var app = {
             return;
         }
 
-        if (!tt.time) {
+        if (app.empty(tt.time)) {
             app.notify("Warning", "Please wait for the clock to sync with the network time server.");
             return;
         }
@@ -104,7 +103,7 @@ var app = {
     },
 
     testConnection: function() {
-
+        // @TODO
     },
 
     rememberMe: function(store) {
@@ -223,12 +222,32 @@ var app = {
         return document.getElementById(id);
     },
 
+    empty: function(variable) {
+        var type = typeof variable;
+
+        switch (type) {
+            case "string":
+                return (variable === "");
+                break;
+
+            case "object":
+                return (Object.keys(variable).length === 0);
+                break;
+        }
+    },
+
     encrypt: function(value) {
+        if (value == "") {
+            return value;
+        }
         var encrypted = CryptoJS.AES.encrypt(value, device.uuid);
         return encrypted.toString(CryptoJS.enc.hex);
     },
 
     decrypt: function(value) {  
+        if (value == "") {
+            return value;
+        }
         var decrypted = CryptoJS.AES.decrypt(value, device.uuid);
         return decrypted.toString(CryptoJS.enc.Utf8);
     },

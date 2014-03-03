@@ -19,7 +19,7 @@
     <feature name="AppVersion">
         <param name="android-package" value="uk.co.whiteoctober.cordova.AppVersion" />
     </feature>
-    <name>TimeTracking</name>
+    <name>CI&amp;T TT</name>
     <description>
         Checks a CI&amp;T employee in/out CI&amp;T Time Tracking tool.
     </description>

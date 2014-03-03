@@ -63,8 +63,9 @@ var tt = {
     time: {},
     thread: null,
 
-    CHECK_RECORDED : 1,
+    CHECK_RECORDED: 1,
     INVALID_CREDENTIALS: 2,
+    OFFLINE_BACKEND: 3,
 
     checkInOrOut: function() {
         var params_string = '';
@@ -80,6 +81,7 @@ var tt = {
         params_string = params_string.substr(0, params_string.length - 1);
         tt.params.userName = "";
         tt.params.password = "";
+        //console.log("PAYLOAD: " + params_string);
 
         tt.request = new XMLHttpRequest();
         var tt_endpoint = "https://tt.ciandt.com/.net/index.ashx/SaveTimmingEvent";
@@ -98,8 +100,18 @@ var tt = {
         };
 
         tt.request.send(params_string);
-        params_string = "";
+        //tt.mock();
         tt.processResponse();
+    },
+
+    mock: function() {
+        tt.response = {
+            success: true,
+            msg: {
+                msg: "MARCACAO EFETUADA LUCAS NASCIMENTO ARRUDA",
+                type: 1
+            }
+        };
     },
 
     processResponse: function() {
@@ -125,7 +137,7 @@ var tt = {
         request.responseType = "text";
         request.onload = function(e) {
             if (request.readyState != 4 || request.status != 200) {
-                tt.time = false;
+                tt.time = {};
                 return;
             }
             var arr = request.responseText.split("#");
@@ -166,14 +178,19 @@ var tt = {
         if (tt.response == null || !tt.response.hasOwnProperty('success')) {
             return "Unexpected server response.\nPlease try again later.";
         }
-        //if (tt.response.msg.type == tt.INVALID_CREDENTIALS || tt.response.success != true) {
-        //    return tt.response.msg.msg;
-        //}
+        if (tt.response.success == true && tt.response.msg.type == tt.OFFLINE_BACKEND) {
+            return "The back-end seems off-line.\nPlease try again later.";
+        }
         return tt.response.msg.msg;
     },
 
     checkRecorded: function() {
         return (tt.response.hasOwnProperty('success') && tt.response.msg.type == tt.CHECK_RECORDED);
+    },
+
+    stopTimer: function() {
+        clearInterval(tt.thread);
+        tt.time = {};
     }
 };
 

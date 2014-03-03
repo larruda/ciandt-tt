@@ -20,10 +20,11 @@
     -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
 }
 
-body {
+html, body {
     -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
     -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
     -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+    /*
     background-color:#E4E4E4;
     background-image:linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
     background-image:-webkit-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
@@ -36,65 +37,69 @@ body {
         color-stop(0.51, #E4E4E4)
     );
     background-attachment:fixed;
+    */
     font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
-    font-size:12px;
     height:100%;
-    margin:0px;
-    padding:0px;
+    margin:0;
+    padding:0;
     text-transform:uppercase;
     width:100%;
 }
 
-/* Portrait layout (default) */
-.app {
-    background:url(../img/logo.png) no-repeat center top; /* 170px x 200px */
-    position:absolute;             /* position in the center of the screen */
-    left:50%;
-    top:50%;
-    height:50px;                   /* text area height */
-    width:225px;                   /* text area width */
-    text-align:center;
-    padding:180px 0px 0px 0px;     /* image height is 200px (bottom 20px are overlapped with text) */
-    margin:-115px 0px 0px -112px;  /* offset vertical: half of image height and text area height */
-                                   /* offset horizontal: half of text area width */
+@font-face {
+    font-family: 'digi';
+    src: url('../font/DS-DIGII.TTF');
 }
 
-/* Landscape layout (with min-width) */
-@media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
-    .app {
-        background-position:left center;
-        padding:75px 0px 75px 170px;  /* padding-top + padding-bottom + text area = image height */
-        margin:-90px 0px 0px -198px;  /* offset vertical: half of image height */
-                                      /* offset horizontal: half of image width and text area width */
-    }
+/* Portrait layout (default) */
+.header {               /* text area height */
+    width:100%;                   /* text area width */                           /* offset horizontal: half of text area width */
+    text-align: center;
+    background: url('../img/imgHomePortal.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-x: right; 
+    height: 20%;
+    overflow: hidden;
+}
+
+.header .symbol {
+    background-image: url("../img/simbolo-CI&T-B&W-CMYK-white.png");
+    width: 64%;
+    height: 105%;
+    background-size: cover;
+    opacity: .7;
+    margin-top: -2%;
+    margin-left: -2%;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
 }
 
 h1 {
-    font-size:24px;
+    font-size: 8vw;
     font-weight:normal;
-    margin:0px;
+    margin:0;
     overflow:visible;
-    padding:0px;
+    padding:0;
     text-align:center;
+    width: 100%;
+    line-height: 9vh;
+    background-color: #FFF;
+    border-bottom: 1px solid #41cfd7;
+    border-top: 2px solid #41cfd7;
 }
 
-.event {
-    border-radius:4px;
-    -webkit-border-radius:4px;
-    color:#FFFFFF;
-    font-size:12px;
-    margin:0px 30px;
-    padding:2px 0px;
-}
-
-.event.listening {
-    background-color:#333333;
-    display:block;
-}
-
-.event.received {
-    background-color:#4B946A;
-    display:none;
+p,
+label {
+    font-size: 3vw;
+    margin: 3% 0;
 }
 
 @keyframes fade {
@@ -102,14 +107,162 @@ h1 {
     50% { opacity: 0.4; }
     to { opacity: 1.0; }
 }
- 
+
 @-webkit-keyframes fade {
     from { opacity: 1.0; }
     50% { opacity: 0.4; }
     to { opacity: 1.0; }
 }
- 
+
 .blink {
     animation:fade 3000ms infinite;
     -webkit-animation:fade 3000ms infinite;
+}
+
+.footer {
+  background: #e65766;
+  background-image: -webkit-linear-gradient(top, #e65766, #a33c45);
+  background-image: -moz-linear-gradient(top, #e65766, #a33c45);
+  background-image: -ms-linear-gradient(top, #e65766, #a33c45);
+  background-image: -o-linear-gradient(top, #e65766, #a33c45);
+  background-image: linear-gradient(to bottom, #e65766, #a33c45);
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  height: 25%;
+}
+
+.btn {
+      -webkit-appearance: none; -moz-appearance: none;
+     display: block;
+     margin: 0 auto;
+     line-height: 10vw;
+     color: #707070;
+     font-weight: bold;
+     height: 25%; 
+     width: 100%;
+     background: #fdfdfd; background: -moz-linear-gradient(top, #fdfdfd 0%, #bebebe 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fdfdfd), color-stop(100%,#bebebe)); background: -webkit-linear-gradient(top, #fdfdfd 0%,#bebebe 100%); background: -o-linear-gradient(top, #fdfdfd 0%,#bebebe 100%); background: -ms-linear-gradient(top, #fdfdfd 0%,#bebebe 100%); background: linear-gradient(to bottom, #fdfdfd 0%,#bebebe 100%);
+     border: 1px solid #bbb;
+     -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px;
+     width: 50%;
+     text-align: center;
+     margin-top: -12%;
+     padding: 4vh 5vw;
+     position: relative;
+     top: 50%;
+     font-size: 5vw;
+     box-shadow: 0px 3px 5px #000;
+    -moz-box-shadow: 0px 3px 5px #000;
+    -webkit-box-shadow: 0px 3px 5px #000;
+}
+
+.btn span {
+    text-transform: uppercase;
+    text-shadow: 0px 1px 0px #FFF;
+}
+
+.btn:active {
+    top:51%;
+        box-shadow:none;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+    color: #00AFB9;
+}
+
+.light {
+    color: #41cfd7;
+}
+
+.dark {
+    color: #47BCC4;
+}
+
+#app-container {
+    height: 100%;
+    position: relative;
+}
+
+.ciandt-logo {
+
+}
+
+.content {
+    padding-top: 3%;
+}
+
+#auth {
+    width: 65%;
+    margin: 0 auto;
+    display: none;
+}
+
+input[type=text],
+input[type=password] {
+  /* You can set width to whatever you like */
+    width: 90%;
+    font-family: "Roboto", "Droid Sans", sans-serif;
+    font-size: 4vw;
+    margin: 0;
+    padding: 1vh 2vw;
+    position: relative;
+    display: block;
+    outline: none;
+    border: none;
+    background: bottom left linear-gradient(#a9a9a9, #a9a9a9) no-repeat, bottom center linear-gradient(#a9a9a9, #a9a9a9) repeat-x, bottom right linear-gradient(#a9a9a9, #a9a9a9) no-repeat;
+    background-size: 1px 6px, 1px 1px, 1px 6px;
+    margin-bottom: 3%;
+}
+
+input[type=text]:hover,
+input[type=password]:hover {
+    background: bottom left linear-gradient(#0099cc, #0099cc) no-repeat, bottom center linear-gradient(#0099cc, #0099cc) repeat-x, bottom right linear-gradient(#0099cc, #0099cc) no-repeat;
+    background-size: 1px 6px, 1px 1px, 1px 6px;
+}
+
+input[type=checkbox] {
+    margin: 0 2% 0 0;
+}
+
+.timer {
+    font-family: 'digi';
+    width: 100%;
+    background: white;
+    font-size: 12vw;
+    color: #707070;
+    text-align: center;
+    border-top: 5px solid #DF5462;
+    background-image: linear-gradient(#f0f0f0, white);
+    position: absolute;
+    bottom: 25%;
+}
+
+#time {
+    line-height: 18vw;
+}
+
+#user-data {
+    width: 65%;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+#user-data strong {
+    color: #333;
+    margin-bottom: 10%;
+    display: block;
+    font-size: 4vw;
+}
+
+#last-record {
+    font-size: 6vw;
+    margin-bottom: 10%;
+}
+
+#forget {
+    border-top: 1px solid #CF1629;
+    border-bottom: 1px solid #CF1629;
+    color: #CF1629;
+    font-size: 3vw;
+    text-decoration: none;
 }

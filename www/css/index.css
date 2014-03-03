@@ -39,10 +39,9 @@ html, body {
     background-attachment:fixed;
     */
     font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
-    font-size:12px;
     height:100%;
-    margin:0px;
-    padding:0px;
+    margin:0;
+    padding:0;
     text-transform:uppercase;
     width:100%;
 }
@@ -86,9 +85,9 @@ img {
 h1 {
     font-size: 8vw;
     font-weight:normal;
-    margin:0px;
+    margin:0;
     overflow:visible;
-    padding:0px;
+    padding:0;
     text-align:center;
     width: 100%;
     line-height: 9vh;
@@ -100,6 +99,7 @@ h1 {
 p,
 label {
     font-size: 3vw;
+    margin: 3% 0;
 }
 
 @keyframes fade {
@@ -146,8 +146,8 @@ label {
      -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px;
      width: 50%;
      text-align: center;
-     margin-top: -50px;
-     padding: 25px;
+     margin-top: -12%;
+     padding: 4vh 5vw;
      position: relative;
      top: 50%;
      font-size: 5vw;
@@ -201,22 +201,26 @@ input[type=password] {
   /* You can set width to whatever you like */
     width: 90%;
     font-family: "Roboto", "Droid Sans", sans-serif;
-    font-size: 3.5vw;
+    font-size: 4vw;
     margin: 0;
-    padding: 4px 8px 6px 8px;
+    padding: 1vh 2vw;
     position: relative;
     display: block;
     outline: none;
     border: none;
     background: bottom left linear-gradient(#a9a9a9, #a9a9a9) no-repeat, bottom center linear-gradient(#a9a9a9, #a9a9a9) repeat-x, bottom right linear-gradient(#a9a9a9, #a9a9a9) no-repeat;
     background-size: 1px 6px, 1px 1px, 1px 6px;
-    margin-bottom: 10px;
+    margin-bottom: 3%;
 }
 
 input[type=text]:hover,
 input[type=password]:hover {
     background: bottom left linear-gradient(#0099cc, #0099cc) no-repeat, bottom center linear-gradient(#0099cc, #0099cc) repeat-x, bottom right linear-gradient(#0099cc, #0099cc) no-repeat;
     background-size: 1px 6px, 1px 1px, 1px 6px;
+}
+
+input[type=checkbox] {
+    margin: 0 2% 0 0;
 }
 
 .timer {
@@ -233,7 +237,7 @@ input[type=password]:hover {
 }
 
 #time {
-    line-height: 21vw;
+    line-height: 18vw;
 }
 
 #user-data {
@@ -246,7 +250,7 @@ input[type=password]:hover {
 #user-data strong {
     color: #333;
     margin-bottom: 10%;
-    display: inline-block;
+    display: block;
     font-size: 4vw;
 }
 
