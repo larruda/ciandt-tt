@@ -81,7 +81,7 @@ var tt = {
         params_string = params_string.substr(0, params_string.length - 1);
         tt.params.userName = "";
         tt.params.password = "";
-        //console.log("PAYLOAD: " + params_string);
+        console.log("PAYLOAD: " + params_string);
 
         tt.request = new XMLHttpRequest();
         var tt_endpoint = "https://tt.ciandt.com/.net/index.ashx/SaveTimmingEvent";
@@ -100,7 +100,7 @@ var tt = {
         };
 
         tt.request.send(params_string);
-        //tt.mock();
+        tt.mock();
         tt.processResponse();
     },
 

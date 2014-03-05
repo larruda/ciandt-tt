@@ -108,11 +108,11 @@ var app = {
 
     rememberMe: function(store) {
         if (store) {
-            window.localStorage.remember = true;
-            window.localStorage.username = app.encrypt(app.username);
-            window.localStorage.password = app.encrypt(app.password);
-            window.localStorage.lastRecord = tt.time.lastRecord;
-            window.localStorage.fullName = tt.response.msg.msg.match("MARCACAO EFETUADA (.*)")[1];
+            localStorage.remember = true;
+            localStorage.username = app.username;
+            localStorage.password = app.password;
+            localStorage.lastRecord = tt.time.lastRecord;
+            localStorage.fullName = tt.response.msg.msg.match("MARCACAO EFETUADA (.*)")[1];
 
             app.el("auth").style.display = "none";
             app.el("user-data").style.display = "block";
@@ -121,18 +121,18 @@ var app = {
             app.el("last-record").innerHTML = app.getLastRecord();
         }
 
-        if (window.localStorage.remember == undefined) {
-            window.localStorage.remember = false;
+        if (localStorage.remember == undefined) {
+            localStorage.remember = false;
         }
-        return JSON.parse(window.localStorage.remember);
+        return JSON.parse(localStorage.remember);
     },
 
     forget: function() {
-        window.localStorage.remember = false;
-        window.localStorage.username = null;
-        window.localStorage.password = null;
-        window.localStorage.lastRecord = null;
-        window.localStorage.fullName = null;
+        localStorage.remember = false;
+        localStorage.username = null;
+        localStorage.password = null;
+        localStorage.lastRecord = null;
+        localStorage.fullName = null;
 
         app.el("auth").style.display = "block";
         app.el("user-data").style.display = "none";
@@ -184,19 +184,19 @@ var app = {
 
     getUserData: function() {
         app.username =  (app.rememberMe()) ?
-                        window.localStorage.username : app.encrypt(app.el("username").value);
+                        localStorage.username : app.encrypt(app.el("username").value);
 
         app.password =  (app.rememberMe()) ?
-                        window.localStorage.password : app.encrypt(app.el("password").value);
+                        localStorage.password : app.encrypt(app.el("password").value);
 
     },
 
     getUserFullName: function() {
-        return window.localStorage.fullName;
+        return localStorage.fullName;
     },
 
     getLastRecord: function() {
-        return window.localStorage.lastRecord;
+        return localStorage.lastRecord;
     },
 
     bindScreenEvents: function() {
