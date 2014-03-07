@@ -18,7 +18,7 @@ Give it a try!
 * Google Play Store: https://play.google.com/store/apps/details?id=com.ciandt.tt
 * Apple App Store: *not yet released*
 
-## Changelog ##
+## Changelog 
 
 * 0.1.4
   * Screen orientation locked to portrait-only.
@@ -35,7 +35,7 @@ Give it a try!
 * 0.0.2
   * Clock synchronised against NTP.BR server endpoint.
   
-## Known Issues ##  
+## Known Issues 
 
 * Clock does not syncronizes if network connection is poor
 * Clock is fast-forwarded if back button is pressed on some devices
@@ -43,13 +43,13 @@ Give it a try!
 * "Unexpected Server Response" on Android 2.3.x
 * Intermitent time parsing issues on some devices (NaN:NaN:NaN)
 
-## To-Do ##  
+## To-Do 
 
 * Test on iOS devices, perform adjustements and publish on Apple App Store
 * Fix those issues above!
 * Set up a reminder so users can choose their preferred check in/out time (eg.: 8AM-5PM) so the app pushes a nice reminding notification.
 
-## Technology Stack ##
+## Technology Stack
 
 | Package       | Type       | Version |
 |:------------- |:-------------: | :-------: |
@@ -63,7 +63,7 @@ Give it a try!
 | [StyleFix & PrefixFree](https://github.com/LeaVerou/prefixfree) | JS library | 1.0.3 & 1.0.7 |
 | [CryptoJS](https://code.google.com/p/crypto-js/) | JS library | 3.1.2 |
 
-## How to Contribute ##
+## How to Contribute
 
 This app has been built for two main personal purposes: 1) learn mobile (hybrid) development and 2) improve my own check in/out experience. I can say both goals have been accomplished, thus I'd like to share as much experience as possible.
 
