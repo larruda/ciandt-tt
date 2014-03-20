@@ -20,33 +20,13 @@ var tt = {
 
     params : {
         deviceID: 2,
-        eventtype: 1,
+        eventType: 1,
         userName: "",
         password: "",
         cracha: "",
         costCenter: "",
         leave: "",
         func: "",
-        cdiDispositivoAcesso: 2,
-        cdiDriverDispositivoAcesso: 10,
-        cdiTipoIdentificacaoAcesso: 7,
-        oplLiberarPETurmaRVirtual: false,
-        cdiTipoUsoDispositivo: 1,
-        qtiTempoAcionamento: 0,
-        d1sEspecieAreaEvento: "Nenhuma",
-        d1sAreaEvento: "Nenhum",
-        d1sSubAreaEvento: "Nenhum(a)",
-        d1sEvento: "Nenhum",
-        oplLiberarFolhaRVirtual: false,
-        oplLiberarCCustoRVirtual: false,
-        qtiHorasFusoHorario: 0,
-        cosEnderecoIP: "127.0.0.1",
-        nuiPorta: 7069,
-        oplValidaSenhaRelogVirtual: false,
-        useUserPwd: true,
-        useCracha: false,
-        dttimeEvent: "", // 04/02/2014 21:34:34
-        oplLiberarFuncoesRVirtual: false,
         sessionID: 0,
         selectedEmployee: 0,
         selectedCandidate: 0,
@@ -54,34 +34,34 @@ var tt = {
         dtFmt: "d/m/Y",
         tmFmt: "H:i:s",
         shTmFmt: "H:i",
-        dttmFmt: "d/m/Y H:i:s",
-        language:  0
+        dtTmFmt: "d/m/Y H:i:s",
+        language: 0
     },
 
     request: null,
     response: {},
     time: {},
     thread: null,
+    token: null,
 
     CHECK_RECORDED: 1,
     INVALID_CREDENTIALS: 2,
     OFFLINE_BACKEND: 3,
 
     checkInOrOut: function() {
-        var params_string = '';
+        var payload = '';
 
         tt.params.userName = app.decrypt(app.username);
         tt.params.password = app.decrypt(app.password);
-        tt.params.dttimeEvent = tt.getCurrentTime();
 
         for (var key in tt.params) {
-            params_string += key + '=' + encodeURIComponent(tt.params[key]) + '&';
+            payload += key + '=' + encodeURIComponent(tt.params[key]) + '&';
         }
 
-        params_string = params_string.substr(0, params_string.length - 1);
+        payload = payload.substr(0, payload.length - 1);
         tt.params.userName = "";
         tt.params.password = "";
-        //console.log("PAYLOAD: " + params_string);
+        //console.log("PAYLOAD: " + payload);
 
         tt.request = new XMLHttpRequest();
         var tt_endpoint = "https://tt.ciandt.com/.net/index.ashx/SaveTimmingEvent";
@@ -90,16 +70,14 @@ var tt = {
         tt.request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 
         tt.request.onload = function(e) {
-            console.log(tt.request);
-
+            //console.log(tt.request.responseText);
             if (tt.request.readyState != 4 || tt.request.status != 200) {
                 return;
             }
-
-            tt.response = eval("(function(){return " + tt.request.responseText + ";})()");
+            eval('tt.response = new Object(' + tt.request.responseText + ')');
         };
 
-        tt.request.send(params_string);
+        tt.request.send(payload);
         //tt.mock();
         tt.processResponse();
     },
@@ -120,7 +98,7 @@ var tt = {
             return;
         }
 
-        tt.time.lastRecord = tt.params.dttimeEvent;
+        tt.time.lastRecord = tt.getCurrentTime();
         app.rememberMe(app.el("remember").checked);
     },
 
@@ -129,20 +107,24 @@ var tt = {
         return -date.getTimezoneOffset() / 60;
     },
 
-    getNetworkTime: function() {
-        var ntp_endpoint = "http://monitor.ntp.br/horacerta/s.php";
+    syncTokenAndTime: function() {
+        var tt_token_url = "https://tt.ciandt.com/.net/index.ashx/GetClockDeviceInfo?deviceID=2";
         var request = new XMLHttpRequest();
 
-        request.open("GET", ntp_endpoint + "?zone=" + tt.getGMTOffset(), true);
+        request.open("GET", tt_token_url, true);
         request.responseType = "text";
+
         request.onload = function(e) {
             if (request.readyState != 4 || request.status != 200) {
-                tt.time = {};
                 return;
             }
-            var arr = request.responseText.split("#");
-            tt.time.string = arr[0].trim();
-            tt.time.timestamp = arr[1].trim();
+            eval('var response = new Object(' + request.responseText + ')');
+
+            if (!response.hasOwnProperty('success') || response.success == false) {
+                return;
+            }
+
+            tt.time.timestamp = response.deviceInfo.dtTimeEvent.getTime() / 1000;
 
             tt.thread = setInterval(function() {
                 app.showTimer(tt.time);
@@ -151,7 +133,6 @@ var tt = {
         };
 
         request.send();
-        
     },
 
     getCurrentTime: function() {
@@ -181,11 +162,17 @@ var tt = {
         if (tt.response.success == true && tt.response.msg.type == tt.OFFLINE_BACKEND) {
             return "The back-end seems off-line.\nPlease try again later.";
         }
+        if (tt.response.success == false && tt.response.hasOwnProperty('error')) {
+            return tt.response.errorDetail;
+        }
+        
         return tt.response.msg.msg;
     },
 
     checkRecorded: function() {
-        return (tt.response.hasOwnProperty('success') && tt.response.msg.type == tt.CHECK_RECORDED);
+        return (tt.response.hasOwnProperty('success') && 
+                tt.response.success == true  &&
+                tt.response.msg.type == tt.CHECK_RECORDED);
     },
 
     stopTimer: function() {

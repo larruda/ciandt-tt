@@ -55,7 +55,7 @@ var app = {
             app.testConnection();
             return;
         }
-        app.setTimer();      
+        app.sync();      
     },
 
     initFastClick: function() {
@@ -162,11 +162,11 @@ var app = {
         }
 
         app.el("remember").checked = (app.rememberMe()) ? "checked" : false;
-        app.setTimer();
+        app.sync();
     },
 
-    setTimer: function () {
-        tt.getNetworkTime();
+    sync: function () {
+        tt.syncTokenAndTime();
     },
 
     showTimer: function(time) {
