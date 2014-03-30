@@ -20,6 +20,11 @@ Give it a try!
 
 ## Changelog 
 
+* 1.2.5
+  * Clock now comes from official TT server (legal issues concerning NTP method)
+  * Fixed JSON parsing for Android 2.2.x
+  * Time is not sent along with the payload anymore. TT back-end handles that now.
+
 * 0.1.4
   * Screen orientation locked to portrait-only.
   * Storage was being twicely encrypted. Fixed!
