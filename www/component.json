@@ -1,0 +1,7 @@
+{
+  "name": "ciandt_tt",
+  "paths": ["www"],
+  "dependencies": {
+    "jakiestfu/Snap.js": "*"
+  }
+}
