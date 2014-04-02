@@ -14,7 +14,7 @@ Icon
 
 # Component.JS
 www/components
-js/build.js
+www/js/build.js
 
 # IOS / Xcode
 build/*
