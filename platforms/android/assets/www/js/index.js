@@ -21,6 +21,8 @@ var app = {
     username: "",
     password: "",
     version: "",
+    snapper: null,
+    currentScreen: "",
 
     // Application Constructor
     initialize: function() {
@@ -65,10 +67,22 @@ var app = {
     main: function() {
         app.initFastClick();
         app.bindScreenEvents();
-        app.showForm();
+        app.show();
+        app.drawer();
 
         cordova.getAppVersion(function (version) {
             app.version = version;
+        });
+    },
+
+    show: function() {
+        document.getElementsByClassName('snap-item')[0].click();
+        main.load();
+    },
+
+    drawer: function() {
+        app.snapper = new Snap({
+            element: document.getElementById('app')
         });
     },
 
@@ -151,21 +165,8 @@ var app = {
         return (app.username != "" && app.password != "");
     },
 
-    showForm: function() {
-        if (!app.rememberMe()) {
-            app.el("auth").style.display = "block";
-            app.el("user-data").style.display = "none";
-        }
-        else {
-            app.el("full-name").innerHTML = app.getUserFullName();
-            app.el("last-record").innerHTML = app.getLastRecord();
-        }
-
-        app.el("remember").checked = (app.rememberMe()) ? "checked" : false;
-        app.sync();
-    },
-
     sync: function () {
+        tt.stopTimer();
         tt.syncTokenAndTime();
     },
 
@@ -178,6 +179,7 @@ var app = {
         h = (h < 10) ? "0" + h : h;
         m = (m < 10) ? "0" + m : m;
         s = (s < 10) ? "0" + s : s;
+        console.log(h + ":" + m + ":" + s);
 
         app.el("time").innerHTML = h + ":" + m + ":" + s;
     },
@@ -200,22 +202,36 @@ var app = {
     },
 
     bindScreenEvents: function() {
-        app.el("forget").onclick = function() {
-            app.el("auth").style.display = "block";
-            app.forget();
+        app.el("drawer-icon").onclick = function() {
+            if (app.snapper.state().state == "closed") {
+                app.snapper.open('left');    
+            }
+            else {
+                app.snapper.close();
+            }
+        }
+
+        var snap_items = document.getElementsByClassName('snap-item');
+        for (var i = 0; i < snap_items.length; i++) {
+            snap_items[i].addEventListener('click', app.snapClick, false);
+        }
+    },
+
+    snapClick: function(event) {
+        event.preventDefault();
+        var request = new XMLHttpRequest();
+        request.open("GET", this.getAttribute("href"), false);
+        app.currentScreen = this.getAttribute("href").split(".")[0];
+
+        request.onload = function() {
+            app.el("content").innerHTML = this.responseText;
+            var callback = app.currentScreen + '.load';
+            if (typeof(eval(callback)) === "function") {
+                eval(callback + '()');
+            }
         };
 
-        app.el("check-button").onclick = function() {
-            if (!app.validate()) {
-                return;
-            }
-            
-            spinnerplugin.show();
-            tt.checkInOrOut();
-            spinnerplugin.hide();
-
-            app.notify("Server Response", tt.getReponseMessage());
-        }
+        request.send();
     },
 
     el: function(id) {
