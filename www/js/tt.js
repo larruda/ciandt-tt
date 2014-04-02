@@ -176,6 +176,7 @@ var tt = {
     },
 
     stopTimer: function() {
+        app.el("time").innerHTML = "Loading...";
         clearInterval(tt.thread);
         tt.time = {};
     }
