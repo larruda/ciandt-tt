@@ -44,11 +44,26 @@ html, body {
     padding:0;
     text-transform:uppercase;
     width:100%;
+    font-family: "Raleway";
 }
 
 @font-face {
     font-family: 'digi';
     src: url('../font/DS-DIGII.TTF');
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Raleway'), url("../font/Raleway-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Raleway-Bold';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Raleway'), url("../font/Raleway-Bold.ttf");
 }
 
 /* Portrait layout (default) */
@@ -138,7 +153,6 @@ label {
      margin: 0 auto;
      line-height: 10vw;
      color: #707070;
-     font-weight: bold;
      height: 25%; 
      width: 100%;
      background: #fdfdfd; background: -moz-linear-gradient(top, #fdfdfd 0%, #bebebe 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fdfdfd), color-stop(100%,#bebebe)); background: -webkit-linear-gradient(top, #fdfdfd 0%,#bebebe 100%); background: -o-linear-gradient(top, #fdfdfd 0%,#bebebe 100%); background: -ms-linear-gradient(top, #fdfdfd 0%,#bebebe 100%); background: linear-gradient(to bottom, #fdfdfd 0%,#bebebe 100%);
@@ -154,6 +168,7 @@ label {
      box-shadow: 0px 3px 5px #000;
     -moz-box-shadow: 0px 3px 5px #000;
     -webkit-box-shadow: 0px 3px 5px #000;
+    font-family: "Raleway-Bold";
 }
 
 .btn span {
@@ -180,13 +195,14 @@ label {
 #app-container {
     height: 100%;
     position: relative;
+    background-color: #FFF;
 }
 
 .ciandt-logo {
 
 }
 
-.content {
+#content {
     padding-top: 3%;
 }
 
@@ -265,4 +281,25 @@ input[type=checkbox] {
     color: #CF1629;
     font-size: 3vw;
     text-decoration: none;
+}
+
+#drawer-icon {
+    background-color: rgba(255,255,255,0.8);
+    position: absolute;
+    left: -2px;
+    width: 13px;
+    height: 45px;
+    border: 2px solid #A7A7A7;
+    border-radius: 0 5px 5px 0;
+    padding: 5px;
+    bottom: 50%;
+    margin-bottom: -30px;
+}
+
+#drawer-icon img {
+    max-width: 185%;
+}
+
+#drawer-icon:active {
+    background-color: rgba(255,255,255,1);
 }
