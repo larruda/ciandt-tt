@@ -2,6 +2,7 @@
   "name": "ciandt_tt",
   "paths": ["www"],
   "dependencies": {
-    "jakiestfu/Snap.js": "*"
+    "jakiestfu/Snap.js": "*",
+    "components/zepto": "1.1.3"
   }
 }

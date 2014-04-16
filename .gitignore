@@ -12,9 +12,10 @@ Icon
 .Spotlight-V100
 .Trashes
 
-# Component.JS
+# Component
 www/components
 www/js/build.js
+www/js/components-zepto
 
 # IOS / Xcode
 build/*
@@ -37,6 +38,6 @@ IOS/www/
 *.apk
 *.ap_
 
-#Cordova
+# Cordova
 platforms/android/assets
 
