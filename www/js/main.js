@@ -2,6 +2,14 @@ var main = {
 
     load: function() {
         this.showForm();
+        app.el("footer").style.display = 'block';
+    },
+
+    unload: function() {
+        if (app.el("time") != undefined) {
+            tt.stopTimer();
+        }
+        app.el("footer").style.display = 'none';
     },
 
     bindEvents: function() {

@@ -1,0 +1,7 @@
+
+var list = {
+    
+    load: function() {
+        
+    }
+};

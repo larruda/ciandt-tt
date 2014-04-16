@@ -22,7 +22,10 @@ var app = {
     password: "",
     version: "",
     snapper: null,
-    currentScreen: "",
+    screen: {
+        current: null,
+        previous: null
+    },
 
     // Application Constructor
     initialize: function() {
@@ -180,7 +183,9 @@ var app = {
         m = (m < 10) ? "0" + m : m;
         s = (s < 10) ? "0" + s : s;
 
-        app.el("time").innerHTML = h + ":" + m + ":" + s;
+        if (app.el("time") != undefined) {
+            app.el("time").innerHTML = h + ":" + m + ":" + s;
+        }
     },
 
     getUserData: function() {
@@ -220,13 +225,20 @@ var app = {
         event.preventDefault();
         var request = new XMLHttpRequest();
         request.open("GET", this.getAttribute("href"), false);
-        app.currentScreen = this.getAttribute("href").split(".")[0];
+        app.screen.previous = app.screen.current;
+        app.screen.current = this.getAttribute("href").split(".")[0];
 
         request.onload = function() {
+            var callback_load = app.screen.current + '.load';
+            var callback_unload = app.screen.previous ? app.screen.previous + '.unload' : null;
+
+            if (typeof(eval(callback_unload)) === "function") {
+                eval(callback_unload + '()');
+            }
             app.el("content").innerHTML = this.responseText;
-            var callback = app.currentScreen + '.load';
-            if (typeof(eval(callback)) === "function") {
-                eval(callback + '()');
+
+            if (typeof(eval(callback_load)) === "function") {
+                eval(callback_load + '()');
             }
         };
 

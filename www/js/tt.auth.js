@@ -1,0 +1,6 @@
+tt.auth = {
+
+    login: function() {
+        
+    }
+};
