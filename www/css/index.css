@@ -45,6 +45,7 @@ html, body {
     text-transform:uppercase;
     width:100%;
     font-family: "Raleway";
+    color: #FFF;
 }
 
 @font-face {
@@ -107,7 +108,7 @@ h1 {
     width: 100%;
     line-height: 9vh;
     background-color: #FFF;
-    border-bottom: 1px solid #41cfd7;
+    box-shadow: #000 0px 3px 5px 0px;
     border-top: 2px solid #41cfd7;
 }
 
@@ -134,7 +135,7 @@ label {
     -webkit-animation:fade 3000ms infinite;
 }
 
-.footer {
+#footer {
   background: #e65766;
   background-image: -webkit-linear-gradient(top, #e65766, #a33c45);
   background-image: -moz-linear-gradient(top, #e65766, #a33c45);
@@ -195,7 +196,7 @@ label {
 #app-container {
     height: 100%;
     position: relative;
-    background-color: #FFF;
+    background-color: #00C2C9;
 }
 
 .ciandt-logo {
@@ -203,7 +204,7 @@ label {
 }
 
 #content {
-    padding-top: 3%;
+    padding-top: 5vh;
 }
 
 #auth {
@@ -224,14 +225,14 @@ input[type=password] {
     display: block;
     outline: none;
     border: none;
-    background: bottom left linear-gradient(#a9a9a9, #a9a9a9) no-repeat, bottom center linear-gradient(#a9a9a9, #a9a9a9) repeat-x, bottom right linear-gradient(#a9a9a9, #a9a9a9) no-repeat;
+    background-color: #FFF; 
     background-size: 1px 6px, 1px 1px, 1px 6px;
     margin-bottom: 3%;
 }
 
 input[type=text]:hover,
 input[type=password]:hover {
-    background: bottom left linear-gradient(#0099cc, #0099cc) no-repeat, bottom center linear-gradient(#0099cc, #0099cc) repeat-x, bottom right linear-gradient(#0099cc, #0099cc) no-repeat;
+    background-color: #FFF;
     background-size: 1px 6px, 1px 1px, 1px 6px;
 }
 
@@ -246,7 +247,7 @@ input[type=checkbox] {
     font-size: 12vw;
     color: #707070;
     text-align: center;
-    border-top: 5px solid #DF5462;
+    border-top: 5px solid #707070;
     background-image: linear-gradient(#f0f0f0, white);
     position: absolute;
     bottom: 25%;
@@ -284,20 +285,30 @@ input[type=checkbox] {
 }
 
 #drawer-icon {
-    background-color: rgba(255,255,255,0.8);
+    background-color: rgba(255,255,255,0.9);
     position: absolute;
     left: -2px;
-    width: 13px;
-    height: 45px;
-    border: 2px solid #A7A7A7;
-    border-radius: 0 5px 5px 0;
-    padding: 5px;
-    bottom: 50%;
-    margin-bottom: -30px;
+    width: 5.4vw;
+    height: 8vh;
+    border: 1px solid #A7A7A7;
+    border-radius: 0 4px 4px 0;
+    bottom: 8vh;
 }
 
-#drawer-icon img {
-    max-width: 185%;
+#drawer-icon .menu-icon {
+  position: relative;
+  padding-left: 1.25em;
+}
+
+#drawer-icon .menu-icon:before {
+    content: "";
+    position: absolute;
+    left: -1.6vw;
+    top: 2.5vh;
+    width: 5.4vw;
+    height: 0.7vh;
+    border-top: 2vh double #7A7A7A;
+    border-bottom: .7vh solid #7A7A7A;
 }
 
 #drawer-icon:active {
