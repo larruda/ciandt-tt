@@ -183,7 +183,7 @@ var app = {
         m = (m < 10) ? "0" + m : m;
         s = (s < 10) ? "0" + s : s;
 
-        if (app.el("time") != undefined) {
+        if (app.el("time") != undefined && !isNaN(h)) {
             app.el("time").innerHTML = h + ":" + m + ":" + s;
         }
     },
@@ -243,6 +243,7 @@ var app = {
         };
 
         request.send();
+        app.snapper.close();
     },
 
     el: function(id) {

@@ -126,6 +126,10 @@ var tt = {
 
             tt.time.timestamp = response.deviceInfo.dtTimeEvent.getTime() / 1000;
 
+            if (tt.thread != null) {
+                return;
+            }
+
             tt.thread = setInterval(function() {
                 app.showTimer(tt.time);
                 tt.time.timestamp = +tt.time.timestamp + 1;
@@ -178,6 +182,7 @@ var tt = {
     stopTimer: function() {
         app.el("time").innerHTML = "Loading...";
         clearInterval(tt.thread);
+        tt.thread = null;
         tt.time = {};
     }
 };
