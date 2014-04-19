@@ -40,4 +40,5 @@ IOS/www/
 
 # Cordova
 platforms/android/assets
+platforms/android/local.properties
 
