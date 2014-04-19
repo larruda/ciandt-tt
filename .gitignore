@@ -42,5 +42,7 @@ IOS/www/
 platforms/android/assets/*
 platforms/android/local.properties
 platforms/android/CordovaLib/local.properties
+ant-build
+ant-gen
 platforms/android/.staging
 
