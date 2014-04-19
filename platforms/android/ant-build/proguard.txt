@@ -1,6 +1,0 @@
-# view AndroidManifest.xml #generated:6
--keep class com.ciandt.tt.TimeTracking { <init>(...); }
-
-# view AndroidManifest.xml #generated:12
--keep class it.mobimentum.phonegapspinnerplugin.ProgressActivity { <init>(...); }
-
