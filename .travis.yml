@@ -4,5 +4,6 @@ node_js:
 install:
   - npm config set registry http://registry.npmjs.org/
   - npm install -g cordova
+  - mkdir /home/travis/build/larruda/ciandt_tt/platforms/android/assets
 script:
   - cordova build android
