@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/larruda/ciandt_tt.svg?branch=develop)](https://travis-ci.org/larruda/ciandt_tt)
 # CI&T Time Tracking (mobile)
 
 
