@@ -1,8 +1,0 @@
-{
-  "name": "ciandt_tt",
-  "paths": ["www"],
-  "dependencies": {
-    "jakiestfu/Snap.js": "*",
-    "components/jquery": "2.1.0"
-  }
-}
