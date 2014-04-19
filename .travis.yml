@@ -3,7 +3,7 @@ node_js:
   - "0.10"
 install:
   - sudo apt-get update -qq
-  - sudo apt-get install -y npm
+  - sudo apt-get install -y npm nodejs
   - sudo npm install -g cordova
 script:
   - cordova build android
