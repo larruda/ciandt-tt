@@ -2,8 +2,8 @@ language: node_js
 node_js:
   - "0.10"
 install:
-  - sudo apt-get update -qq
-  - sudo apt-get install -y npm nodejs
+  - #sudo apt-get update -qq
+  - #sudo apt-get install -y npm nodejs
   - sudo npm config set registry http://registry.npmjs.org/
   - sudo npm install -g cordova
 script:
