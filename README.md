@@ -1,6 +1,4 @@
-[![Build Status](https://travis-ci.org/larruda/ciandt_tt.svg?branch=develop)](https://travis-ci.org/larruda/ciandt_tt)
-# CI&T Time Tracking (mobile)
-
+# CI&T Time Tracking (mobile) [![Build Status](https://travis-ci.org/larruda/ciandt_tt.svg?branch=develop)](https://travis-ci.org/larruda/ciandt_tt)
 
 **WARNING**:
 This is an UNOFFICIAL app built by a CI&T employee.  
