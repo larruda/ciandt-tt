@@ -1,0 +1,316 @@
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ */
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+}
+
+html, body {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+    /*
+    background-color:#E4E4E4;
+    background-image:linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
+    background-image:-webkit-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
+    background-image:-ms-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
+    background-image:-webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(0, #A7A7A7),
+        color-stop(0.51, #E4E4E4)
+    );
+    background-attachment:fixed;
+    */
+    font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    height:100%;
+    margin:0;
+    padding:0;
+    text-transform:uppercase;
+    width:100%;
+    font-family: "Raleway";
+    color: #FFF;
+}
+
+@font-face {
+    font-family: 'digi';
+    src: url('../font/DS-DIGII.TTF');
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Raleway'), url("../font/Raleway-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Raleway-Bold';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Raleway'), url("../font/Raleway-Bold.ttf");
+}
+
+/* Portrait layout (default) */
+.header {               /* text area height */
+    width:100%;                   /* text area width */                           /* offset horizontal: half of text area width */
+    text-align: center;
+    background: url('../img/imgHomePortal.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-x: right; 
+    height: 20%;
+    overflow: hidden;
+}
+
+.header .symbol {
+    background-image: url("../img/simbolo-CI&T-B&W-CMYK-white.png");
+    width: 64%;
+    height: 105%;
+    background-size: cover;
+    opacity: .7;
+    margin-top: -2%;
+    margin-left: -2%;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+h1 {
+    font-size: 8vw;
+    font-weight:normal;
+    margin:0;
+    overflow:visible;
+    padding:0;
+    text-align:center;
+    width: 100%;
+    line-height: 9vh;
+    background-color: #FFF;
+    box-shadow: #000 0px 3px 5px 0px;
+    border-top: 2px solid #41cfd7;
+}
+
+p,
+label {
+    font-size: 3vw;
+    margin: 3% 0;
+}
+
+@keyframes fade {
+    from { opacity: 1.0; }
+    50% { opacity: 0.4; }
+    to { opacity: 1.0; }
+}
+
+@-webkit-keyframes fade {
+    from { opacity: 1.0; }
+    50% { opacity: 0.4; }
+    to { opacity: 1.0; }
+}
+
+.blink {
+    animation:fade 3000ms infinite;
+    -webkit-animation:fade 3000ms infinite;
+}
+
+#footer {
+  background: #e65766;
+  background-image: -webkit-linear-gradient(top, #e65766, #a33c45);
+  background-image: -moz-linear-gradient(top, #e65766, #a33c45);
+  background-image: -ms-linear-gradient(top, #e65766, #a33c45);
+  background-image: -o-linear-gradient(top, #e65766, #a33c45);
+  background-image: linear-gradient(to bottom, #e65766, #a33c45);
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  height: 25%;
+}
+
+.btn {
+      -webkit-appearance: none; -moz-appearance: none;
+     display: block;
+     margin: 0 auto;
+     line-height: 10vw;
+     color: #707070;
+     height: 25%; 
+     width: 100%;
+     background: #fdfdfd; background: -moz-linear-gradient(top, #fdfdfd 0%, #bebebe 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fdfdfd), color-stop(100%,#bebebe)); background: -webkit-linear-gradient(top, #fdfdfd 0%,#bebebe 100%); background: -o-linear-gradient(top, #fdfdfd 0%,#bebebe 100%); background: -ms-linear-gradient(top, #fdfdfd 0%,#bebebe 100%); background: linear-gradient(to bottom, #fdfdfd 0%,#bebebe 100%);
+     border: 1px solid #bbb;
+     -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px;
+     width: 50%;
+     text-align: center;
+     margin-top: -12%;
+     padding: 4vh 5vw;
+     position: relative;
+     top: 50%;
+     font-size: 5vw;
+     box-shadow: 0px 3px 5px #000;
+    -moz-box-shadow: 0px 3px 5px #000;
+    -webkit-box-shadow: 0px 3px 5px #000;
+    font-family: "Raleway-Bold";
+}
+
+.btn span {
+    text-transform: uppercase;
+    text-shadow: 0px 1px 0px #FFF;
+}
+
+.btn:active {
+    top:51%;
+        box-shadow:none;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+    color: #00AFB9;
+}
+
+.light {
+    color: #41cfd7;
+}
+
+.dark {
+    color: #47BCC4;
+}
+
+#app-container {
+    height: 100%;
+    position: relative;
+    background-color: #00C2C9;
+}
+
+.ciandt-logo {
+
+}
+
+#content {
+    padding-top: 5vh;
+}
+
+#auth {
+    width: 65%;
+    margin: 0 auto;
+    display: none;
+}
+
+input[type=text],
+input[type=password] {
+  /* You can set width to whatever you like */
+    width: 90%;
+    font-family: "Roboto", "Droid Sans", sans-serif;
+    font-size: 4vw;
+    margin: 0;
+    padding: 1vh 2vw;
+    position: relative;
+    display: block;
+    outline: none;
+    border: none;
+    background-color: #FFF; 
+    background-size: 1px 6px, 1px 1px, 1px 6px;
+    margin-bottom: 3%;
+}
+
+input[type=text]:hover,
+input[type=password]:hover {
+    background-color: #FFF;
+    background-size: 1px 6px, 1px 1px, 1px 6px;
+}
+
+input[type=checkbox] {
+    margin: 0 2% 0 0;
+}
+
+.timer {
+    font-family: 'digi';
+    width: 100%;
+    background: white;
+    font-size: 12vw;
+    color: #707070;
+    text-align: center;
+    border-top: 5px solid #707070;
+    background-image: linear-gradient(#f0f0f0, white);
+    position: absolute;
+    bottom: 25%;
+}
+
+#time {
+    line-height: 18vw;
+}
+
+#user-data {
+    width: 65%;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+#user-data strong {
+    color: #333;
+    margin-bottom: 10%;
+    display: block;
+    font-size: 4vw;
+}
+
+#last-record {
+    font-size: 6vw;
+    margin-bottom: 10%;
+}
+
+#forget {
+    border-top: 1px solid #CF1629;
+    border-bottom: 1px solid #CF1629;
+    color: #CF1629;
+    font-size: 3vw;
+    text-decoration: none;
+}
+
+#drawer-icon {
+    background-color: rgba(255,255,255,0.9);
+    position: absolute;
+    left: -2px;
+    width: 5.4vw;
+    height: 8vh;
+    border: 1px solid #A7A7A7;
+    border-radius: 0 4px 4px 0;
+    bottom: 8vh;
+}
+
+#drawer-icon .menu-icon {
+  position: relative;
+  padding-left: 1.25em;
+}
+
+#drawer-icon .menu-icon:before {
+    content: "";
+    position: absolute;
+    left: -1.6vw;
+    top: 2.5vh;
+    width: 5.4vw;
+    height: 0.7vh;
+    border-top: 2vh double #7A7A7A;
+    border-bottom: .7vh solid #7A7A7A;
+}
+
+#drawer-icon:active {
+    background-color: rgba(255,255,255,1);
+}
