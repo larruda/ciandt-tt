@@ -39,7 +39,7 @@ IOS/www/
 *.ap_
 
 # Cordova
-platforms/android/assets
+platforms/android/assets/*
 platforms/android/local.properties
 platforms/android/CordovaLib/local.properties
 
