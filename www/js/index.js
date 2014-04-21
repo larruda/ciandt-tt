@@ -30,6 +30,9 @@ var app = {
     // Application Constructor
     initialize: function() {
         this.bindEvents();
+        jQuery.ajaxSetup({
+            "async": false
+        });
     },
     // Bind Event Listeners
     //
@@ -278,6 +281,14 @@ var app = {
         }
         var decrypted = CryptoJS.AES.decrypt(value, device.uuid);
         return decrypted.toString(CryptoJS.enc.Utf8);
+    },
+
+    "parseJSON": function(string) {
+        return eval('new Object(' + string + ')');
+    },
+
+    "serviceUrl": function(serviceName) {
+        return this.config.basePath + this.config.services[serviceName];
     },
 
     versionCompare: function(left, right) {
