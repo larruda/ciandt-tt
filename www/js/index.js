@@ -291,22 +291,24 @@ var app = {
         return this.config.basePath + this.config.services[serviceName];
     },
 
-    versionCompare: function(left, right) {
-        if (typeof left + typeof right != 'stringstring')
-            return false;
-        
-        var a = left.split('.')
-        ,   b = right.split('.')
-        ,   i = 0, len = Math.max(a.length, b.length);
-            
-        for (; i < len; i++) {
-            if ((a[i] && !b[i] && parseInt(a[i]) > 0) || (parseInt(a[i]) > parseInt(b[i]))) {
-                return 1;
-            } else if ((b[i] && !a[i] && parseInt(b[i]) > 0) || (parseInt(a[i]) < parseInt(b[i]))) {
-                return -1;
-            }
+    "handleDates": function(elm, options) {
+        event.stopPropagation();
+        var currentField = $(elm);
+        var opts = options || {};
+        var minVal = opts.min || 0;
+        var maxVal = opts.max || 0;
+        var callback = opts.callback || function() {};
+
+        var myNewDate = Date.parse(currentField.val()) || new Date();
+        if (typeof myNewDate === "number") {
+            myNewDate = new Date(myNewDate);
         }
-        
-        return 0;
+
+        window.plugins.datePicker.show({
+            date : myNewDate,
+            mode : "date",
+            minDate: Date.parse(minVal),
+            maxDate: Date.parse(maxVal)
+        }, callback);
     }
 };

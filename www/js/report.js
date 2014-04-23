@@ -1,4 +1,4 @@
-
+"use strict";
 var report = {
 
     "monitorStatus": false,
@@ -26,6 +26,20 @@ var report = {
         this.hwd = null;
         this.month = null;
         this.year = null;
+
+        $('#report-period').click(function(){
+            app.handleDates(this, {
+                "min": 0, 
+                "max": new Date(),
+                "callback": report.datepicker_callback 
+            });
+        });
+    },
+
+    "datepicker_callback": function(returnDate) {
+        var month = getMonthName(parseInt(date.getMonth(), 10));
+        var year = date.getFullYear();
+        $("#report-period").val(month + "/" + year).focus();
     },
 
     "open": function() {
@@ -83,7 +97,6 @@ var report = {
             "Cargo": "",
             "MaoDeObra": "",
             "ConScope": 0,
-            "LogTransacao": 0,
             "Apresenta Qtd em Centesimal": 0
         };
 
