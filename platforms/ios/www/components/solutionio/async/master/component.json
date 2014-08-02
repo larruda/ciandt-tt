@@ -1,0 +1,13 @@
+{
+  "name": "async.js",
+  "description": "Higher-order functions and common patterns for asynchronous code",
+  "version": "0.1.22",
+  "keywords": [
+    "async"
+  ],
+  "dependencies": {},
+  "scripts": [
+    "index.js"
+  ],
+  "repository": "solutionio/async"
+}
