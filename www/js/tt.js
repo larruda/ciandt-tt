@@ -45,7 +45,7 @@ var tt = {
         oplValidaSenhaRelogVirtual: false,
         useUserPwd: true,
         useCracha: false,
-        dtTimeEvent: "01/08/2014 23:18:32",
+        dtTimeEvent: "",
         oplLiberarFuncoesRVirtual: false,
         sessionID: 0,
         selectedEmployee: 0,
@@ -73,6 +73,7 @@ var tt = {
 
         tt.params.userName = app.decrypt(app.username);
         tt.params.password = app.decrypt(app.password);
+        tt.params.dttimeEvent = tt.getCurrentTime();
 
         for (var key in tt.params) {
             payload += key + '=' + encodeURIComponent(tt.params[key]) + '&';
