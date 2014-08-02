@@ -35,6 +35,20 @@ var app = {
         document.addEventListener("pause", this.onPause, false);
         document.addEventListener("resume", this.onResume, false);
     },
+
+    writeTag: function(nfcEvent) {
+        record = ndef.mimeMediaRecord("text/ciandt_tt", nfc.stringToBytes("ciandt:tt:register"));
+        nfc.write([record], this.nfcWriteSuccess, this.nfcWriteFailure);
+    },
+
+    nfcWriteSuccess: function() {
+        this.notify("NFC", "Write tag succeeded!");
+    },
+
+    nfcWriteFailure: function() {
+        this.notify("NFC", "Write tag failed!");
+    },
+
     // deviceready Event Handler
     //
     // The scope of 'this' is the event. In order to call the 'receivedEvent'
@@ -66,6 +80,26 @@ var app = {
         app.initFastClick();
         app.bindScreenEvents();
         app.showForm();
+
+        //nfc.addTagDiscoveredListener(this.writeTag, this.nfcWriteSuccess, this.nfcWriteFailure);
+
+        // Read NDEF formatted NFC Tags
+        nfc.addMimeTypeListener("text/ciandt_tt",
+            function (nfcEvent) {
+                var tag = nfcEvent.tag,
+                    ndefMessage = tag.ndefMessage;
+
+                // assuming the first record in the message has 
+                // a payload that can be converted to a string.
+                alert(nfc.bytesToString(ndefMessage[0].payload));
+            }, 
+            function () { // success callback
+                alert("Waiting for NDEF tag");
+            },
+            function (error) { // error callback
+                alert("Error adding NDEF listener " + JSON.stringify(error));
+            }
+        );
     },
 
     validate: function() {
