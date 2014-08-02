@@ -49,6 +49,18 @@ module.exports = [
         "merges": [
             "navigator.notification"
         ]
+    },
+    {
+        "file": "plugins/com.chariotsolutions.nfc.plugin/www/phonegap-nfc.js",
+        "id": "com.chariotsolutions.nfc.plugin.NFC",
+        "runs": true
+    },
+    {
+        "file": "plugins/me.apla.cordova.app-preferences/www/apppreferences.js",
+        "id": "me.apla.cordova.app-preferences.apppreferences",
+        "clobbers": [
+            "plugins.appPreferences"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -58,7 +70,9 @@ module.exports.metadata =
     "uk.co.whiteoctober.cordova.AppVersion": "0.1.3",
     "it.mobimentum.phonegapspinnerplugin": "1.0.2",
     "org.apache.cordova.network-information": "0.2.7",
-    "org.apache.cordova.dialogs": "0.2.6"
+    "org.apache.cordova.dialogs": "0.2.6",
+    "com.chariotsolutions.nfc.plugin": "0.5.0",
+    "me.apla.cordova.app-preferences": "0.4.2"
 }
 // BOTTOM OF METADATA
 });

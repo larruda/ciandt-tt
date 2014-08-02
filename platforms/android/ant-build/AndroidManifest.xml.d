@@ -1,2 +1,2 @@
-/Users/lucasarruda/Sites/ciandt_tt/platforms/android/ant-build/AndroidManifest.xml : \
-/Users/lucasarruda/Sites/ciandt_tt/platforms/android/AndroidManifest.xml \
+/Users/lucasarruda/Workspace/ciandt_tt/platforms/android/ant-build/AndroidManifest.xml : \
+/Users/lucasarruda/Workspace/ciandt_tt/platforms/android/AndroidManifest.xml \

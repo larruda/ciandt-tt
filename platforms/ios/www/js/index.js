@@ -34,7 +34,23 @@ var app = {
         document.addEventListener('deviceready', this.onDeviceReady, false);
         document.addEventListener("pause", this.onPause, false);
         document.addEventListener("resume", this.onResume, false);
+
+        nfc.addTagDiscoveredListener(this.writeTag, this.nfcWriteSuccess, this.nfcWriteFailure);
     },
+
+    writeTag: function(nfcEvent) {
+        record = ndef.mimeMediaRecord("text/tt", nfc.stringToBytes("ciandt:tt:register"));
+        nfc.write([record], this.nfcWriteSuccess, nfcWriteFailure);
+    },
+
+    nfcWriteSuccess: function() {
+        this.notify("NFC", "Write tag succeeded!");
+    },
+
+    nfcWriteFailure: function() {
+        this.notify("NFC", "Write tag failed!");
+    },
+
     // deviceready Event Handler
     //
     // The scope of 'this' is the event. In order to call the 'receivedEvent'
@@ -55,7 +71,7 @@ var app = {
             app.testConnection();
             return;
         }
-        app.setTimer();      
+        app.sync();      
     },
 
     initFastClick: function() {
@@ -66,10 +82,6 @@ var app = {
         app.initFastClick();
         app.bindScreenEvents();
         app.showForm();
-
-        cordova.getAppVersion(function (version) {
-            app.version = version;
-        });
     },
 
     validate: function() {
@@ -108,11 +120,11 @@ var app = {
 
     rememberMe: function(store) {
         if (store) {
-            window.localStorage.remember = true;
-            window.localStorage.username = app.encrypt(app.username);
-            window.localStorage.password = app.encrypt(app.password);
-            window.localStorage.lastRecord = tt.time.lastRecord;
-            window.localStorage.fullName = tt.response.msg.msg.match("MARCACAO EFETUADA (.*)")[1];
+            localStorage.remember = true;
+            localStorage.username = app.username;
+            localStorage.password = app.password;
+            localStorage.lastRecord = tt.time.lastRecord;
+            localStorage.fullName = tt.response.msg.msg.match("MARCACAO EFETUADA (.*)")[1];
 
             app.el("auth").style.display = "none";
             app.el("user-data").style.display = "block";
@@ -121,18 +133,18 @@ var app = {
             app.el("last-record").innerHTML = app.getLastRecord();
         }
 
-        if (window.localStorage.remember == undefined) {
-            window.localStorage.remember = false;
+        if (localStorage.remember == undefined) {
+            localStorage.remember = false;
         }
-        return JSON.parse(window.localStorage.remember);
+        return JSON.parse(localStorage.remember);
     },
 
     forget: function() {
-        window.localStorage.remember = false;
-        window.localStorage.username = null;
-        window.localStorage.password = null;
-        window.localStorage.lastRecord = null;
-        window.localStorage.fullName = null;
+        localStorage.remember = false;
+        localStorage.username = null;
+        localStorage.password = null;
+        localStorage.lastRecord = null;
+        localStorage.fullName = null;
 
         app.el("auth").style.display = "block";
         app.el("user-data").style.display = "none";
@@ -162,11 +174,11 @@ var app = {
         }
 
         app.el("remember").checked = (app.rememberMe()) ? "checked" : false;
-        app.setTimer();
+        app.sync();
     },
 
-    setTimer: function () {
-        tt.getNetworkTime();
+    sync: function () {
+        tt.syncTokenAndTime();
     },
 
     showTimer: function(time) {
@@ -184,19 +196,19 @@ var app = {
 
     getUserData: function() {
         app.username =  (app.rememberMe()) ?
-                        window.localStorage.username : app.encrypt(app.el("username").value);
+                        localStorage.username : app.encrypt(app.el("username").value);
 
         app.password =  (app.rememberMe()) ?
-                        window.localStorage.password : app.encrypt(app.el("password").value);
+                        localStorage.password : app.encrypt(app.el("password").value);
 
     },
 
     getUserFullName: function() {
-        return window.localStorage.fullName;
+        return localStorage.fullName;
     },
 
     getLastRecord: function() {
-        return window.localStorage.lastRecord;
+        return localStorage.lastRecord;
     },
 
     bindScreenEvents: function() {
@@ -250,24 +262,5 @@ var app = {
         }
         var decrypted = CryptoJS.AES.decrypt(value, device.uuid);
         return decrypted.toString(CryptoJS.enc.Utf8);
-    },
-
-    versionCompare: function(left, right) {
-        if (typeof left + typeof right != 'stringstring')
-            return false;
-        
-        var a = left.split('.')
-        ,   b = right.split('.')
-        ,   i = 0, len = Math.max(a.length, b.length);
-            
-        for (; i < len; i++) {
-            if ((a[i] && !b[i] && parseInt(a[i]) > 0) || (parseInt(a[i]) > parseInt(b[i]))) {
-                return 1;
-            } else if ((b[i] && !a[i] && parseInt(b[i]) > 0) || (parseInt(a[i]) < parseInt(b[i]))) {
-                return -1;
-            }
-        }
-        
-        return 0;
     }
 };

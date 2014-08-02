@@ -47,6 +47,7 @@
 		CCA5D700CB234313B32202FD /* CDVNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 37611EE9D486496099A5FEF1 /* CDVNotification.m */; };
 		5C6FC245D7DF4564853A8A82 /* CDVNotification.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DFCE6A112A9E40DD863F8650 /* CDVNotification.bundle */; };
 		FF220B5FDF8D440EA71EDFF2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74C98C1EC59144C69BAE259C /* AudioToolbox.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		5D35C30FCF9E4933A8F4AB8D /* AppPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FD2724B3BB4CD999A59D27 /* AppPreferences.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -126,6 +127,8 @@
 		A484AD257EE54FF3B9870E6A /* CDVNotification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVNotification.h"; path = "org.apache.cordova.dialogs/CDVNotification.h"; sourceTree = "<group>"; fileEncoding = 4; };
 		DFCE6A112A9E40DD863F8650 /* CDVNotification.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = "CDVNotification.bundle"; path = "CDVNotification.bundle"; sourceTree = "<group>"; };
 		74C98C1EC59144C69BAE259C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "AudioToolbox.framework"; path = "System/Library/Frameworks/AudioToolbox.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		00FD2724B3BB4CD999A59D27 /* AppPreferences.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppPreferences.m"; path = "me.apla.cordova.app-preferences/AppPreferences.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		032F5428BCD0463C8C6B00D0 /* AppPreferences.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppPreferences.h"; path = "me.apla.cordova.app-preferences/AppPreferences.h"; sourceTree = "<group>"; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -263,6 +266,8 @@
 				2B5D01CD29FD489BBEE319D1 /* CDVReachability.h */,
 				37611EE9D486496099A5FEF1 /* CDVNotification.m */,
 				A484AD257EE54FF3B9870E6A /* CDVNotification.h */,
+				00FD2724B3BB4CD999A59D27 /* AppPreferences.m */,
+				032F5428BCD0463C8C6B00D0 /* AppPreferences.h */,
 			);
 			name = Plugins;
 			path = "CI&T TT/Plugins";
@@ -464,6 +469,7 @@
 				CB6D869F30B148B1BFBD24C9 /* CDVConnection.m in Sources */,
 				62634E45DE8A4E288653BF35 /* CDVReachability.m in Sources */,
 				CCA5D700CB234313B32202FD /* CDVNotification.m in Sources */,
+				5D35C30FCF9E4933A8F4AB8D /* AppPreferences.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
