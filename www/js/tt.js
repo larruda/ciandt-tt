@@ -95,7 +95,8 @@ var tt = {
             if (tt.request.readyState != 4 || tt.request.status != 200) {
                 return;
             }
-            eval('tt.response = new Object(' + tt.request.responseText + ')');
+            var response = app.fixJsonString(tt.request.responseText);
+            eval('tt.response = new Object(' + response + ')');
         };
 
         tt.request.send(payload);
@@ -139,6 +140,7 @@ var tt = {
             if (request.readyState != 4 || request.status != 200) {
                 return;
             }
+            var response = app.fixJsonString(request.responseText);
             eval('var response = new Object(' + request.responseText + ')');
 
             if (!response.hasOwnProperty('success') || response.success == false) {

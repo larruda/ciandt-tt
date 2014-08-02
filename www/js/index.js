@@ -280,5 +280,9 @@ var app = {
         }
         var decrypted = CryptoJS.AES.decrypt(value, device.uuid);
         return decrypted.toString(CryptoJS.enc.Utf8);
+    },
+
+    fixJsonString: function(jsonString) {
+        return jsonString.replace(/(['"])?([a-zA-Z0-9]+)(['"])?:/g, '"$2":');
     }
 };
