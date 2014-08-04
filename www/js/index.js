@@ -84,7 +84,7 @@ var app = {
         //nfc.addTagDiscoveredListener(this.writeTag, this.nfcWriteSuccess, this.nfcWriteFailure);
 
         // Read NDEF formatted NFC Tags
-        nfc.addMimeTypeListener("text/ciandt_tt",
+        /*nfc.addMimeTypeListener("text/ciandt_tt",
             function (nfcEvent) {
                 var tag = nfcEvent.tag,
                     ndefMessage = tag.ndefMessage;
@@ -99,7 +99,7 @@ var app = {
             function (error) { // error callback
                 alert("Error adding NDEF listener " + JSON.stringify(error));
             }
-        );
+        );*/
     },
 
     validate: function() {
