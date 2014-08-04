@@ -283,6 +283,6 @@ var app = {
     },
 
     fixJsonString: function(jsonString) {
-        return jsonString.replace(/(['"])?([a-zA-Z0-9]+)(['"])?:/g, '"$2":');
+        return jsonString.replace(/(\s*?{\s*?|\s*?,\s*?)(['"])?([a-zA-Z0-9_]+)(['"])?:/g, '$1"$3":');
     }
 };
