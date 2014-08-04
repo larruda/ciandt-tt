@@ -68,7 +68,7 @@ import android.widget.FrameLayout;
 public class CordovaWebView extends WebView {
 
     public static final String TAG = "CordovaWebView";
-    public static final String CORDOVA_VERSION = "3.4.0-rc1";
+    public static final String CORDOVA_VERSION = "3.5.0";
 
     private ArrayList<Integer> keyDownCodes = new ArrayList<Integer>();
     private ArrayList<Integer> keyUpCodes = new ArrayList<Integer>();
@@ -361,18 +361,13 @@ public class CordovaWebView extends WebView {
 
     private void exposeJsInterface() {
         int SDK_INT = Build.VERSION.SDK_INT;
-        boolean isHoneycomb = (SDK_INT >= Build.VERSION_CODES.HONEYCOMB && SDK_INT <= Build.VERSION_CODES.HONEYCOMB_MR2);
-        if (isHoneycomb || (SDK_INT < Build.VERSION_CODES.GINGERBREAD)) {
+        if ((SDK_INT < Build.VERSION_CODES.JELLY_BEAN_MR1)) {
             Log.i(TAG, "Disabled addJavascriptInterface() bridge since Android version is old.");
             // Bug being that Java Strings do not get converted to JS strings automatically.
             // This isn't hard to work-around on the JS side, but it's easier to just
             // use the prompt bridge instead.
             return;            
-        } else if (SDK_INT < Build.VERSION_CODES.HONEYCOMB && Build.MANUFACTURER.equals("unknown")) {
-            // addJavascriptInterface crashes on the 2.3 emulator.
-            Log.i(TAG, "Disabled addJavascriptInterface() bridge callback due to a bug on the 2.3 emulator");
-            return;
-        }
+        } 
         this.addJavascriptInterface(exposedJsApi, "_cordovaNative");
     }
 
@@ -445,17 +440,22 @@ public class CordovaWebView extends WebView {
         }
     }
 
+    public void loadUrlIntoView(final String url) {
+        loadUrlIntoView(url, true);
+    }
+
     /**
      * Load the url into the webview.
      *
      * @param url
      */
-    public void loadUrlIntoView(final String url) {
+    public void loadUrlIntoView(final String url, boolean recreatePlugins) {
         LOG.d(TAG, ">>> loadUrl(" + url + ")");
 
-        this.url = url;
-        this.pluginManager.init();
-
+        if (recreatePlugins) {
+            this.url = url;
+            this.pluginManager.init();
+        }
 
         // Create a timeout timer for loadUrl
         final CordovaWebView me = this;
@@ -494,8 +494,7 @@ public class CordovaWebView extends WebView {
         // Load url
         this.cordova.getActivity().runOnUiThread(new Runnable() {
             public void run() {
-                Thread thread = new Thread(timeoutCheck);
-                thread.start();
+                cordova.getThreadPool().execute(timeoutCheck);
                 me.loadUrlNow(url);
             }
         });
@@ -542,6 +541,11 @@ public class CordovaWebView extends WebView {
         this.loadUrlIntoView(url);
     }
     
+    @Override
+    public void stopLoading() {
+        viewClient.isCurrentlyLoading = false;
+        super.stopLoading();
+    }
     
     public void onScrollChanged(int l, int t, int oldl, int oldt)
     {

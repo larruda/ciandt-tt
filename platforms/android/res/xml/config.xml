@@ -1,30 +1,31 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.ciandt.tt" version="1.2.5" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <preference name="loglevel" value="DEBUG" />
+    <preference name="AndroidLaunchMode" value="singleTop" />
     <feature name="App">
         <param name="android-package" value="org.apache.cordova.App" />
-    </feature>
-    <feature name="NfcPlugin">
-        <param name="android-package" value="com.chariotsolutions.nfc.plugin.NfcPlugin" />
-        <param name="onload" value="true" />
-    </feature>
-    <feature name="SpinnerPlugin">
-        <param name="android-package" value="it.mobimentum.phonegapspinnerplugin.SpinnerPlugin" />
-    </feature>
-    <feature name="AppPreferences">
-        <param name="android-package" value="me.apla.cordova.AppPreferences" />
     </feature>
     <feature name="Device">
         <param name="android-package" value="org.apache.cordova.device.Device" />
     </feature>
-    <feature name="Notification">
-        <param name="android-package" value="org.apache.cordova.dialogs.Notification" />
+    <feature name="AppVersion">
+        <param name="android-package" value="uk.co.whiteoctober.cordova.AppVersion" />
+    </feature>
+    <feature name="SpinnerPlugin">
+        <param name="android-package" value="it.mobimentum.phonegapspinnerplugin.SpinnerPlugin" />
     </feature>
     <feature name="NetworkStatus">
         <param name="android-package" value="org.apache.cordova.networkinformation.NetworkManager" />
     </feature>
-    <feature name="AppVersion">
-        <param name="android-package" value="uk.co.whiteoctober.cordova.AppVersion" />
+    <feature name="Notification">
+        <param name="android-package" value="org.apache.cordova.dialogs.Notification" />
+    </feature>
+    <feature name="AppPreferences">
+        <param name="android-package" value="me.apla.cordova.AppPreferences" />
+    </feature>
+    <feature name="NfcPlugin">
+        <param name="android-package" value="com.chariotsolutions.nfc.plugin.NfcPlugin" />
+        <param name="onload" value="true" />
     </feature>
     <name>CI&amp;T TT</name>
     <description>

@@ -1,1 +1,96 @@
-{"prepare_queue":{"installed":[],"uninstalled":[]},"config_munge":{"res/xml/config.xml":{"/*":{"<feature name=\"Device\"><param name=\"android-package\" value=\"org.apache.cordova.device.Device\" /></feature>":1,"<feature name=\"AppVersion\"><param name=\"android-package\" value=\"uk.co.whiteoctober.cordova.AppVersion\" /></feature>":1,"<feature name=\"SpinnerPlugin\"><param name=\"android-package\" value=\"it.mobimentum.phonegapspinnerplugin.SpinnerPlugin\" /></feature>":1,"<feature name=\"NetworkStatus\"><param name=\"android-package\" value=\"org.apache.cordova.networkinformation.NetworkManager\" /></feature>":1,"<feature name=\"Notification\"><param name=\"android-package\" value=\"org.apache.cordova.dialogs.Notification\" /></feature>":1,"<feature name=\"AppPreferences\"><param name=\"android-package\" value=\"me.apla.cordova.AppPreferences\" /></feature>":1},"/widget":{"<feature name=\"NfcPlugin\"><param name=\"android-package\" value=\"com.chariotsolutions.nfc.plugin.NfcPlugin\" /><param name=\"onload\" value=\"true\" /></feature>":1}},"AndroidManifest.xml":{"/manifest/application":{"<activity android:configChanges=\"orientation|keyboardHidden|keyboard|screenSize|locale\" android:launchMode=\"singleInstance\" android:name=\"it.mobimentum.phonegapspinnerplugin.ProgressActivity\" android:theme=\"@android:style/Theme.Translucent.NoTitleBar\"><intent-filter></intent-filter></activity>":1},"/*":{"<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />":1},"/manifest":{"<uses-permission android:name=\"android.permission.NFC\" />":1,"<uses-feature android:name=\"android.hardware.nfc\" android:required=\"false\" />":1}}},"installed_plugins":{"org.apache.cordova.device":{"PACKAGE_NAME":"com.ciandt.tt"},"uk.co.whiteoctober.cordova.AppVersion":{"PACKAGE_NAME":"com.ciandt.tt"},"it.mobimentum.phonegapspinnerplugin":{"PACKAGE_NAME":"com.ciandt.tt"},"org.apache.cordova.network-information":{"PACKAGE_NAME":"com.ciandt.tt"},"org.apache.cordova.dialogs":{"PACKAGE_NAME":"com.ciandt.tt"},"com.chariotsolutions.nfc.plugin":{"PACKAGE_NAME":"com.ciandt.tt"},"me.apla.cordova.app-preferences":{"PACKAGE_NAME":"com.ciandt.tt"}},"dependent_plugins":{}}
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {
+            "res/xml/config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"Device\"><param name=\"android-package\" value=\"org.apache.cordova.device.Device\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"AppVersion\"><param name=\"android-package\" value=\"uk.co.whiteoctober.cordova.AppVersion\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"SpinnerPlugin\"><param name=\"android-package\" value=\"it.mobimentum.phonegapspinnerplugin.SpinnerPlugin\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"NetworkStatus\"><param name=\"android-package\" value=\"org.apache.cordova.networkinformation.NetworkManager\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Notification\"><param name=\"android-package\" value=\"org.apache.cordova.dialogs.Notification\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"AppPreferences\"><param name=\"android-package\" value=\"me.apla.cordova.AppPreferences\" /></feature>",
+                            "count": 1
+                        }
+                    ],
+                    "/widget": [
+                        {
+                            "xml": "<feature name=\"NfcPlugin\"><param name=\"android-package\" value=\"com.chariotsolutions.nfc.plugin.NfcPlugin\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            "AndroidManifest.xml": {
+                "parents": {
+                    "/manifest/application": [
+                        {
+                            "xml": "<activity android:configChanges=\"orientation|keyboardHidden|keyboard|screenSize|locale\" android:launchMode=\"singleInstance\" android:name=\"it.mobimentum.phonegapspinnerplugin.ProgressActivity\" android:theme=\"@android:style/Theme.Translucent.NoTitleBar\"><intent-filter></intent-filter></activity>",
+                            "count": 1
+                        }
+                    ],
+                    "/*": [
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />",
+                            "count": 1
+                        }
+                    ],
+                    "/manifest": [
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.NFC\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-feature android:name=\"android.hardware.nfc\" android:required=\"false\" />",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "installed_plugins": {
+        "org.apache.cordova.device": {
+            "PACKAGE_NAME": "com.ciandt.tt"
+        },
+        "uk.co.whiteoctober.cordova.AppVersion": {
+            "PACKAGE_NAME": "com.ciandt.tt"
+        },
+        "it.mobimentum.phonegapspinnerplugin": {
+            "PACKAGE_NAME": "com.ciandt.tt"
+        },
+        "org.apache.cordova.network-information": {
+            "PACKAGE_NAME": "com.ciandt.tt"
+        },
+        "org.apache.cordova.dialogs": {
+            "PACKAGE_NAME": "com.ciandt.tt"
+        },
+        "com.chariotsolutions.nfc.plugin": {
+            "PACKAGE_NAME": "com.ciandt.tt"
+        },
+        "me.apla.cordova.app-preferences": {
+            "PACKAGE_NAME": "com.ciandt.tt"
+        }
+    },
+    "dependent_plugins": {}
+}
