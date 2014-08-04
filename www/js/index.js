@@ -240,9 +240,9 @@ var app = {
                 return;
             }
             
-            spinnerplugin.show();
+            //spinnerplugin.show();
             tt.checkInOrOut();
-            spinnerplugin.hide();
+            //spinnerplugin.hide();
 
             app.notify("Server Response", tt.getReponseMessage());
         }
