@@ -84,7 +84,7 @@ var app = {
         //nfc.addTagDiscoveredListener(this.writeTag, this.nfcWriteSuccess, this.nfcWriteFailure);
 
         // Read NDEF formatted NFC Tags
-        nfc.addMimeTypeListener("text/ciandt_tt",
+        /*nfc.addMimeTypeListener("text/ciandt_tt",
             function (nfcEvent) {
                 var tag = nfcEvent.tag,
                     ndefMessage = tag.ndefMessage;
@@ -99,7 +99,7 @@ var app = {
             function (error) { // error callback
                 alert("Error adding NDEF listener " + JSON.stringify(error));
             }
-        );
+        );*/
     },
 
     validate: function() {
@@ -240,9 +240,9 @@ var app = {
                 return;
             }
             
-            spinnerplugin.show();
+            //spinnerplugin.show();
             tt.checkInOrOut();
-            spinnerplugin.hide();
+            //spinnerplugin.hide();
 
             app.notify("Server Response", tt.getReponseMessage());
         }
@@ -280,5 +280,9 @@ var app = {
         }
         var decrypted = CryptoJS.AES.decrypt(value, device.uuid);
         return decrypted.toString(CryptoJS.enc.Utf8);
+    },
+
+    fixJsonString: function(jsonString) {
+        return jsonString.replace(/(\s*?{\s*?|\s*?,\s*?)(['"])?([a-zA-Z0-9_]+)(['"])?:/g, '$1"$3":');
     }
 };

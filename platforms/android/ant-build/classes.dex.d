@@ -31,6 +31,11 @@
 /Users/lucasarruda/Workspace/ciandt_tt/platforms/android/ant-build/classes/com/jamiestarke/webviewdebug/WebViewDebug.class \
 /Users/lucasarruda/Workspace/ciandt_tt/platforms/android/ant-build/classes/it/mobimentum/phonegapspinnerplugin/ProgressActivity.class \
 /Users/lucasarruda/Workspace/ciandt_tt/platforms/android/ant-build/classes/it/mobimentum/phonegapspinnerplugin/SpinnerPlugin.class \
+/Users/lucasarruda/Workspace/ciandt_tt/platforms/android/ant-build/classes/me/apla/cordova/AppPreferences$1.class \
+/Users/lucasarruda/Workspace/ciandt_tt/platforms/android/ant-build/classes/me/apla/cordova/AppPreferences$2.class \
+/Users/lucasarruda/Workspace/ciandt_tt/platforms/android/ant-build/classes/me/apla/cordova/AppPreferences$3.class \
+/Users/lucasarruda/Workspace/ciandt_tt/platforms/android/ant-build/classes/me/apla/cordova/AppPreferences$4.class \
+/Users/lucasarruda/Workspace/ciandt_tt/platforms/android/ant-build/classes/me/apla/cordova/AppPreferences.class \
 /Users/lucasarruda/Workspace/ciandt_tt/platforms/android/ant-build/classes/org/apache/cordova/api/Dummy.class \
 /Users/lucasarruda/Workspace/ciandt_tt/platforms/android/ant-build/classes/org/apache/cordova/device/Device.class \
 /Users/lucasarruda/Workspace/ciandt_tt/platforms/android/ant-build/classes/org/apache/cordova/dialogs/Notification$1$1.class \
