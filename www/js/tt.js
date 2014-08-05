@@ -141,7 +141,7 @@ var tt = {
                 return;
             }
             var response = app.fixJsonString(request.responseText);
-            eval('var response = new Object(' + request.responseText + ')');
+            eval('var response = new Object(' + response + ')');
 
             if (!response.hasOwnProperty('success') || response.success == false) {
                 return;
